@@ -1,17 +1,19 @@
 {
-  "best_nodes": 10,
-  "country_mode": "unknown_until_geoip_database",
+  "best_nodes": 29,
+  "country_cached_ips": 0,
+  "country_classified_nodes": 136,
+  "country_mode": "exit_ip_ipinfo",
+  "country_queried_ips": 64,
   "failed_sources": 0,
   "fetched_sources": 10,
-  "generated_at": "2026-09-21T18:34:05+00:00",
-  "geoip_classified_nodes": 0,
-  "parsed_nodes": 20856,
+  "generated_at": "2026-09-21T18:57:42+00:00",
+  "parsed_nodes": 20808,
   "real_check": {
     "enabled": true,
-    "invalid_batches": 2,
+    "invalid_batches": 3,
     "selected": 2000,
-    "unsupported": 68,
-    "verified": 33
+    "unsupported": 60,
+    "verified": 136
   },
   "security_filter": "tls,reality",
   "sources": {
@@ -28,7 +30,7 @@
       "url": "https://raw.githubusercontent.com/CaptchaQ/vless-servers/main/working_all.txt"
     },
     "ebrasha": {
-      "parsed": 12295,
+      "parsed": 12247,
       "url": "https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/vless_configs.txt"
     },
     "epodonios": {
@@ -56,7 +58,11 @@
       "url": "https://raw.githubusercontent.com/Mahdi0024/ProxyCollector/master/sub/proxies.txt"
     }
   },
-  "tcp_open_nodes": 7412,
-  "unique_nodes": 13210,
-  "working_nodes": 33
+  "speed_test": {
+    "measured": 55,
+    "selected": 60
+  },
+  "tcp_open_nodes": 7419,
+  "unique_nodes": 13233,
+  "working_nodes": 136
 }

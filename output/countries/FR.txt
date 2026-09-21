@@ -1,0 +1,2 @@
+vless://bf16ee0c-8b3c-41e4-ab3a-8b48033c404e@51.77.217.70:2053?security=reality&type=tcp&packetEncoding=xudp&sni=www.apple.com&fp=firefox&sid=bfe58beb41f1d09f&pbk=g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%2301%20%7C%207.7%20Mbps%20%7C%20679%20ms
+vless://8abb648a-b004-42a4-aa05-49cdc2f94d4e@199.232.246.236:443?&security=tls&fp=firefox&sni=global.fastly.com&type=ws&headerType=none&host=teranko.global.ssl.fastly.net&path=%2F#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%2302%20%7C%209.8%20Mbps%20%7C%20686%20ms
