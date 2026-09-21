@@ -5,14 +5,14 @@ import hashlib
 import json
 import os
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 from urllib.parse import quote
 
 from dedupe import canonical_key, deduplicate
 from fetch import fetch_all
-from geo import apply_ipinfo_countries
+from geo import apply_ipinfo_countries, lookup_ip_countries, resolve_host_ips
 from parser import VlessNode, is_secure, parse_source
 from ranking import group_by_country, rank
 from singbox import check_nodes_via_singbox, measure_speeds
@@ -27,6 +27,9 @@ HISTORY_FILE = ROOT / "history.json"
 TOP_N = 10
 SPEED_CANDIDATES_PER_COUNTRY = 20
 SPEED_TEST_LIMIT = 60
+TARGET_COUNTRIES = {
+    "AZ", "BY", "DE", "EE", "FI", "GE", "KZ", "LT", "LV", "NL", "NO", "PL", "SE", "TR",
+}
 
 
 def read_json(path: Path, default: Any) -> Any:
@@ -74,6 +77,87 @@ def write_labeled_nodes(path: Path, nodes: list[VlessNode]) -> None:
     path.write_text("\n".join(lines) + ("\n" if lines else ""), encoding="utf-8")
 
 
+def write_country_subscription(path: Path, nodes: list[VlessNode], run_at: str, title: str) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    timestamp = datetime.fromisoformat(run_at).astimezone(timezone(timedelta(hours=3)))
+    updated = timestamp.strftime("%d.%m.%Y %H:%M МСК")
+    lines = [
+        f"#profile-title: {title}",
+        f"#sub-info-text: Обновлено: {updated} | Конфигов: {len(nodes)} | Страна по IP-адресу; доступность не проверялась",
+        "#profile-update-interval: 2",
+        "#subscriptions-sort-type: without",
+    ]
+    country_counts: dict[str, int] = {}
+    for node in nodes:
+        country = node.country
+        country_counts[country] = country_counts.get(country, 0) + 1
+        flag = "".join(chr(0x1F1E6 + ord(letter) - ord("A")) for letter in country)
+        label = f"{flag} {country} #{country_counts[country]:03d}"
+        lines.append(f"{node.uri.partition('#')[0]}#{quote(label, safe='')}")
+    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def build_country_only(
+    nodes: list[VlessNode], source_stats: dict[str, dict[str, Any]], fetched: list[Any], run_at: str
+) -> int:
+    token = os.environ.get("IPINFO_TOKEN")
+    if not token:
+        raise ValueError("IPINFO_TOKEN is required for country-only mode")
+    if not any(not result.error for result in fetched):
+        raise RuntimeError("No source was fetched; subscription was not replaced")
+
+    host_ips, unresolved_hosts = resolve_host_ips(nodes)
+    countries, cached_ips, queried_ips = lookup_ip_countries(set(host_ips.values()), token, CACHE_FILE)
+    for node in nodes:
+        node.country = countries.get(host_ips.get(node.host, ""), "ZZ")
+    selected = sorted(
+        (node for node in nodes if node.country in TARGET_COUNTRIES),
+        key=lambda node: (node.country, node.host, node.port, node.uuid),
+    )
+    if not selected:
+        raise RuntimeError("No nodes matched the selected countries; subscription was not replaced")
+    groups = group_by_country(selected)
+    timestamp = datetime.fromisoformat(run_at).astimezone(timezone(timedelta(hours=3)))
+    title = f"VLESS рядом {timestamp:%d.%m %H:%M}"
+
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    write_country_subscription(OUTPUT_DIR / "best.txt", selected, run_at, title)
+    countries_dir = OUTPUT_DIR / "countries"
+    countries_dir.mkdir(exist_ok=True)
+    for path in countries_dir.glob("*.txt"):
+        path.unlink()
+    for country, country_nodes in sorted(groups.items()):
+        write_country_subscription(
+            countries_dir / f"{country}.txt", country_nodes, run_at, f"VLESS {country} {timestamp:%d.%m %H:%M}"
+        )
+    for legacy_name in ("all-working.txt", "tcp-open.txt"):
+        legacy_path = OUTPUT_DIR / legacy_name
+        if legacy_path.is_file():
+            legacy_path.unlink()
+
+    stats = {
+        "generated_at": run_at,
+        "country_mode": "server_address_ipinfo",
+        "availability_checked": False,
+        "security_filter": "disabled",
+        "target_countries": sorted(TARGET_COUNTRIES),
+        "country_counts": {country: len(country_nodes) for country, country_nodes in sorted(groups.items())},
+        "fetched_sources": sum(1 for result in fetched if not result.error),
+        "failed_sources": sum(1 for result in fetched if result.error),
+        "sources": source_stats,
+        "parsed_nodes": sum(info.get("parsed", 0) for info in source_stats.values()),
+        "unique_nodes": len(nodes),
+        "resolved_hosts": len(host_ips),
+        "unresolved_hosts": unresolved_hosts,
+        "geoip_cached_ips": cached_ips,
+        "geoip_queried_ips": queried_ips,
+        "selected_nodes": len(selected),
+    }
+    write_json(OUTPUT_DIR / "stats.json", stats)
+    print(json.dumps(stats, ensure_ascii=False, indent=2))
+    return 0
+
+
 def update_history(nodes: list[VlessNode], verified_nodes: list[VlessNode], run_at: str) -> None:
     history = read_json(HISTORY_FILE, {"runs": 0, "nodes": {}})
     history.setdefault("nodes", {})
@@ -95,6 +179,8 @@ def update_history(nodes: list[VlessNode], verified_nodes: list[VlessNode], run_
 
 def build(args: argparse.Namespace) -> int:
     run_at = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
+    if args.country_only and not os.environ.get("IPINFO_TOKEN"):
+        raise ValueError("IPINFO_TOKEN is required for country-only mode")
     sources = read_json(SOURCES_FILE, [])
     if not isinstance(sources, list):
         raise ValueError("sources.json must contain a list")
@@ -108,7 +194,7 @@ def build(args: argparse.Namespace) -> int:
             source_stats[result.name] = {"url": result.url, "error": result.error}
             continue
         parsed = parse_source(result.text, result.name)
-        if not args.include_insecure:
+        if not args.include_insecure and not args.country_only:
             parsed = [node for node in parsed if is_secure(node)]
         all_nodes.extend(parsed)
         source_stats[result.name] = {
@@ -121,6 +207,8 @@ def build(args: argparse.Namespace) -> int:
         f"Fetched: sources={len(fetched)}, parsed={len(all_nodes)}, unique={len(unique_nodes)}",
         flush=True,
     )
+    if args.country_only:
+        return build_country_only(unique_nodes, source_stats, fetched, run_at)
     if args.skip_check:
         print("TCP check: skipped", flush=True)
         tcp_nodes = unique_nodes
@@ -256,6 +344,11 @@ def build(args: argparse.Namespace) -> int:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Collect and deduplicate public VLESS subscriptions")
+    parser.add_argument(
+        "--country-only",
+        action="store_true",
+        help="publish all VLESS whose server address is in the selected countries, without connectivity tests",
+    )
     parser.add_argument(
         "--skip-check",
         action="store_true",
