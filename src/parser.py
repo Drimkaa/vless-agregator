@@ -22,6 +22,8 @@ class VlessNode:
     source: str
     sources: list[str] = field(default_factory=list)
     latency_ms: float | None = None
+    speed_mbps: float | None = None
+    stability: float = 0.0
     country: str = "ZZ"
     exit_ip: str | None = None
 

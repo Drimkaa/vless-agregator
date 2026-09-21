@@ -14,7 +14,7 @@ jobs:
     timeout-minutes: 30
     env:
       SING_BOX_VERSION: "1.14.1"
-      MAXMIND_LICENSE_KEY: ${{ secrets.MAXMIND_LICENSE_KEY }}
+      IPINFO_TOKEN: ${{ secrets.IPINFO_TOKEN }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -28,25 +28,8 @@ jobs:
           tar --extract --gzip --file sing-box.tar.gz
           install -m 755 "sing-box-${SING_BOX_VERSION}-linux-amd64/sing-box" /usr/local/bin/sing-box
           sing-box version
-      - name: Restore GeoLite2 Country
-        if: env.MAXMIND_LICENSE_KEY != ''
-        id: geolite
-        uses: actions/cache@v4
-        with:
-          path: .geoip/GeoLite2-Country.mmdb
-          key: geolite2-country-v1
-      - name: Download GeoLite2 Country
-        if: env.MAXMIND_LICENSE_KEY != '' && steps.geolite.outputs.cache-hit != 'true'
-        run: |
-          mkdir -p .geoip
-          curl --fail --location --get --data-urlencode "license_key=${MAXMIND_LICENSE_KEY}" --data-urlencode "edition_id=GeoLite2-Country" --data-urlencode "suffix=tar.gz" "https://download.maxmind.com/app/geoip_download" | tar --extract --gzip --wildcards --strip-components=1 --directory .geoip '*/GeoLite2-Country.mmdb'
       - name: Build subscription
-        run: |
-          args=(--real-check --sing-box-bin sing-box)
-          if [[ -f .geoip/GeoLite2-Country.mmdb ]]; then
-            args+=(--geoip-db .geoip/GeoLite2-Country.mmdb)
-          fi
-          python src/main.py "${args[@]}"
+        run: python src/main.py --real-check --sing-box-bin sing-box
       - name: Commit results
         run: |
           git config user.name "github-actions[bot]"

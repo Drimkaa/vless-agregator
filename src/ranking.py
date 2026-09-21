@@ -9,8 +9,13 @@ def rank(nodes: list[VlessNode], top_n: int = 10) -> list[VlessNode]:
     return sorted(
         nodes,
         key=lambda node: (
-            node.latency_ms is None,
-            node.latency_ms if node.latency_ms is not None else float("inf"),
+            -(
+                0.45 * min((node.speed_mbps or 0) / 100, 1)
+                + 0.30 / (1 + (node.latency_ms or float("inf")) / 200)
+                + 0.20 * node.stability
+                + 0.05 * (1 if node.params.get("security") == "reality" else 0.8)
+            ),
+            -(node.speed_mbps or 0),
             node.host,
             node.port,
         ),

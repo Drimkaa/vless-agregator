@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 import shutil
 import subprocess
@@ -14,6 +15,8 @@ from parser import VlessNode
 
 
 TRACE_URL = "https://www.cloudflare.com/cdn-cgi/trace"
+CONNECTIVITY_URL = "https://www.gstatic.com/generate_204"
+SPEED_URL = "https://speed.cloudflare.com/__down?bytes=2000000"
 IP_RE = re.compile(r"^ip=([^\r\n]+)$", re.MULTILINE)
 FINGERPRINTS = {"chrome", "firefox", "edge", "safari", "360", "qq", "ios", "android"}
 
@@ -171,7 +174,63 @@ def _curl_trace(port: int, timeout: float) -> tuple[float, str] | None:
     match = IP_RE.search(completed.stdout)
     if not match:
         return None
-    return round((time.perf_counter() - started) * 1000, 1), match.group(1).strip()
+    latency_ms = round((time.perf_counter() - started) * 1000, 1)
+    connectivity = subprocess.run(
+        [
+            curl,
+            "--fail",
+            "--silent",
+            "--show-error",
+            "--socks5-hostname",
+            f"127.0.0.1:{port}",
+            "--max-time",
+            str(timeout),
+            "--output",
+            os.devnull,
+            CONNECTIVITY_URL,
+        ],
+        capture_output=True,
+        text=True,
+        timeout=timeout + 2,
+    )
+    if connectivity.returncode != 0:
+        return None
+    return latency_ms, match.group(1).strip()
+
+
+def _curl_speed(port: int, timeout: float) -> float | None:
+    curl = shutil.which("curl") or shutil.which("curl.exe")
+    if not curl:
+        raise RuntimeError("curl is required for the sing-box speed check")
+    completed = subprocess.run(
+        [
+            curl,
+            "--fail",
+            "--silent",
+            "--show-error",
+            "--socks5-hostname",
+            f"127.0.0.1:{port}",
+            "--max-time",
+            str(timeout),
+            "--output",
+            os.devnull,
+            "--write-out",
+            "%{size_download} %{speed_download}",
+            SPEED_URL,
+        ],
+        capture_output=True,
+        text=True,
+        timeout=timeout + 2,
+    )
+    if completed.returncode != 0:
+        return None
+    try:
+        size, bytes_per_second = map(float, completed.stdout.split())
+    except ValueError:
+        return None
+    if size < 1_900_000 or bytes_per_second <= 0:
+        return None
+    return round(bytes_per_second * 8 / 1_000_000, 1)
 
 
 def _check_batch(
@@ -179,6 +238,7 @@ def _check_batch(
     sing_box: str,
     start_port: int,
     timeout: float,
+    speed: bool = False,
 ) -> tuple[list[VlessNode], int, bool]:
     config, supported, unsupported = _batch_config(nodes, start_port)
     if not supported:
@@ -197,7 +257,17 @@ def _check_batch(
         except (OSError, subprocess.TimeoutExpired):
             return [], unsupported, True
         if checked.returncode != 0:
-            return [], unsupported, True
+            if len(nodes) == 1:
+                print(f"WARN sing-box rejected node {nodes[0].host}:{nodes[0].port}: {checked.stderr.strip()}", flush=True)
+                return [], unsupported, True
+            middle = len(nodes) // 2
+            left, left_unsupported, left_invalid = _check_batch(
+                nodes[:middle], sing_box, start_port, timeout, speed
+            )
+            right, right_unsupported, right_invalid = _check_batch(
+                nodes[middle:], sing_box, start_port, timeout, speed
+            )
+            return left + right, left_unsupported + right_unsupported, left_invalid or right_invalid
 
         try:
             process = subprocess.Popen(
@@ -212,9 +282,9 @@ def _check_batch(
             if process.poll() is not None:
                 return [], unsupported, True
             working: list[VlessNode] = []
-            with ThreadPoolExecutor(max_workers=len(supported)) as executor:
+            with ThreadPoolExecutor(max_workers=min(len(supported), 4) if speed else len(supported)) as executor:
                 futures = {
-                    executor.submit(_curl_trace, port, timeout): node
+                    executor.submit(_curl_speed if speed else _curl_trace, port, timeout): node
                     for node, port in supported
                 }
                 for future in as_completed(futures):
@@ -225,7 +295,10 @@ def _check_batch(
                         result = None
                     if result is None:
                         continue
-                    node.latency_ms, node.exit_ip = result
+                    if speed:
+                        node.speed_mbps = result
+                    else:
+                        node.latency_ms, node.exit_ip = result
                     working.append(node)
             return working, unsupported, False
         finally:
@@ -250,7 +323,14 @@ def check_nodes_via_singbox(
     if not shutil.which(sing_box) and not Path(sing_box).is_file():
         raise FileNotFoundError(f"sing-box binary not found: {sing_box}")
 
-    selected_nodes = nodes[:limit]
+    preferred = {"igareck", "igareck-mobile", "captchaq", "p-configs", "proxycollector"}
+    selected_nodes = sorted(
+        nodes,
+        key=lambda node: (
+            not bool(preferred.intersection(node.sources)),
+            node.latency_ms if node.latency_ms is not None else float("inf"),
+        ),
+    )[:limit]
     working: list[VlessNode] = []
     unsupported = 0
     invalid_batches = 0
@@ -276,3 +356,21 @@ def check_nodes_via_singbox(
         unsupported=unsupported,
         invalid_batches=invalid_batches,
     )
+
+
+def measure_speeds(
+    nodes: list[VlessNode], sing_box: str, timeout: float = 15.0, batch_size: int = 32
+) -> list[VlessNode]:
+    measured: list[VlessNode] = []
+    for offset in range(0, len(nodes), batch_size):
+        batch, _, invalid = _check_batch(
+            nodes[offset : offset + batch_size], sing_box, 20000, timeout, speed=True
+        )
+        if invalid:
+            print(f"WARN speed test: invalid batch at offset {offset}", flush=True)
+        measured.extend(batch)
+        print(
+            f"Speed test: {min(offset + batch_size, len(nodes))}/{len(nodes)}, measured={len(measured)}",
+            flush=True,
+        )
+    return measured

@@ -3,25 +3,30 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import os
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
+from urllib.parse import quote
 
 from dedupe import canonical_key, deduplicate
 from fetch import fetch_all
-from geo import apply_countries
+from geo import apply_ipinfo_countries
 from parser import VlessNode, is_secure, parse_source
 from ranking import group_by_country, rank
-from singbox import check_nodes_via_singbox
+from singbox import check_nodes_via_singbox, measure_speeds
 from tester import check_nodes
 
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES_FILE = ROOT / "sources.json"
 OUTPUT_DIR = ROOT / "output"
+CACHE_FILE = OUTPUT_DIR / "ip-country-cache.json"
 HISTORY_FILE = ROOT / "history.json"
 TOP_N = 10
+SPEED_CANDIDATES_PER_COUNTRY = 20
+SPEED_TEST_LIMIT = 60
 
 
 def read_json(path: Path, default: Any) -> Any:
@@ -51,7 +56,25 @@ def write_nodes(path: Path, nodes: list[VlessNode]) -> None:
     path.write_text("\n".join(lines) + ("\n" if lines else ""), encoding="utf-8")
 
 
-def update_history(nodes: list[VlessNode], run_at: str) -> None:
+def write_labeled_nodes(path: Path, nodes: list[VlessNode]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    lines = []
+    country_counts: dict[str, int] = {}
+    for node in nodes:
+        country = node.country.upper()
+        country_counts[country] = country_counts.get(country, 0) + 1
+        flag = ""
+        if len(country) == 2 and country.isascii() and country.isalpha() and country != "ZZ":
+            flag = "".join(chr(0x1F1E6 + ord(letter) - ord("A")) for letter in country)
+        label = (
+            f"{flag} {country} #{country_counts[country]:02d} | "
+            f"{node.speed_mbps:.1f} Mbps | {node.latency_ms:.0f} ms"
+        ).strip()
+        lines.append(f"{node.uri.partition('#')[0]}#{quote(label, safe='')}")
+    path.write_text("\n".join(lines) + ("\n" if lines else ""), encoding="utf-8")
+
+
+def update_history(nodes: list[VlessNode], verified_nodes: list[VlessNode], run_at: str) -> None:
     history = read_json(HISTORY_FILE, {"runs": 0, "nodes": {}})
     history.setdefault("nodes", {})
     history["runs"] = int(history.get("runs", 0)) + 1
@@ -61,6 +84,12 @@ def update_history(nodes: list[VlessNode], run_at: str) -> None:
         record = history["nodes"].setdefault(key, {"runs": 0})
         record["runs"] = int(record.get("runs", 0)) + 1
         record["last_seen"] = run_at
+    for node in verified_nodes:
+        record = history["nodes"][node_key(node)]
+        recent = record.get("recent_verified_runs", [])
+        record["recent_verified_runs"] = [
+            run for run in recent if isinstance(run, int) and run > history["runs"] - 5
+        ] + [history["runs"]]
     write_json(HISTORY_FILE, history)
 
 
@@ -122,10 +151,27 @@ def build(args: argparse.Namespace) -> int:
     else:
         working_nodes = tcp_nodes
 
-    geoip_database_available = bool(args.geoip_db and Path(args.geoip_db).is_file())
-    geoip_classified = 0
-    if geoip_database_available:
-        geoip_classified = apply_countries(working_nodes, Path(args.geoip_db))
+    country_classified = 0
+    cached_ips = 0
+    queried_ips = 0
+    ipinfo_token = os.environ.get("IPINFO_TOKEN")
+    if ipinfo_token:
+        try:
+            country_classified, cached_ips, queried_ips = apply_ipinfo_countries(
+                working_nodes, ipinfo_token, CACHE_FILE
+            )
+        except (OSError, ValueError) as error:
+            print(f"WARN IPinfo country lookup: {error}", file=sys.stderr)
+            country_classified = sum(node.country != "ZZ" for node in working_nodes)
+    history = read_json(HISTORY_FILE, {"runs": 0, "nodes": {}})
+    run_number = int(history.get("runs", 0)) + 1
+    records = history.get("nodes", {})
+    for node in working_nodes if args.real_check else []:
+        recent = records.get(node_key(node), {}).get("recent_verified_runs", [])
+        node.stability = (1 + sum(
+            isinstance(run, int) and run > run_number - 5 for run in recent
+        )) / 5
+
     working_nodes = sorted(
         working_nodes,
         key=lambda node: (
@@ -135,19 +181,58 @@ def build(args: argparse.Namespace) -> int:
             node.port,
         ),
     )
-    best_nodes = rank(working_nodes, TOP_N)
+    speed_candidates: list[VlessNode] = []
+    measured_nodes: list[VlessNode] = []
+    if args.real_check:
+        if len(working_nodes) <= SPEED_TEST_LIMIT:
+            speed_candidates = working_nodes
+        else:
+            groups = group_by_country(working_nodes)
+            candidates_by_country = {
+                country: sorted(
+                    nodes,
+                    key=lambda node: node.latency_ms if node.latency_ms is not None else float("inf"),
+                )[:SPEED_CANDIDATES_PER_COUNTRY]
+                for country, nodes in groups.items()
+            }
+            for index in range(SPEED_CANDIDATES_PER_COUNTRY):
+                for country in sorted(candidates_by_country):
+                    candidates = candidates_by_country[country]
+                    if index < len(candidates):
+                        speed_candidates.append(candidates[index])
+            speed_candidates = speed_candidates[:SPEED_TEST_LIMIT]
+        measured_nodes = measure_speeds(speed_candidates, args.sing_box_bin)
+
+    best_nodes: list[VlessNode] = []
+    country_best: dict[str, list[VlessNode]] = {}
+    for country, nodes in sorted(group_by_country(measured_nodes).items()):
+        selected: list[VlessNode] = []
+        seen_exits: set[str] = set()
+        for node in rank(nodes, len(nodes)):
+            if node.exit_ip in seen_exits:
+                continue
+            selected.append(node)
+            seen_exits.add(node.exit_ip)
+            if len(selected) == TOP_N:
+                break
+        country_best[country] = selected
+        best_nodes.extend(country_best[country])
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     write_nodes(OUTPUT_DIR / "all-working.txt", working_nodes)
     if args.real_check:
         write_nodes(OUTPUT_DIR / "tcp-open.txt", tcp_nodes)
-    write_nodes(OUTPUT_DIR / "best.txt", best_nodes)
-    for country, nodes in group_by_country(working_nodes).items():
-        write_nodes(OUTPUT_DIR / "countries" / f"{country}.txt", rank(nodes, TOP_N))
+    write_labeled_nodes(OUTPUT_DIR / "best.txt", best_nodes)
+    countries_dir = OUTPUT_DIR / "countries"
+    countries_dir.mkdir(exist_ok=True)
+    for path in countries_dir.glob("*.txt"):
+        path.unlink()
+    for country, nodes in country_best.items():
+        write_labeled_nodes(countries_dir / f"{country}.txt", nodes)
 
     stats = {
         "generated_at": run_at,
-        "country_mode": "exit_ip_geoip" if geoip_database_available else "unknown_until_geoip_database",
+        "country_mode": "exit_ip_ipinfo" if country_classified else "unknown_without_ip_geolocation",
         "security_filter": "tls,reality" if not args.include_insecure else "disabled",
         "sources": source_stats,
         "fetched_sources": sum(1 for result in fetched if not result.error),
@@ -158,10 +243,13 @@ def build(args: argparse.Namespace) -> int:
         "working_nodes": len(working_nodes),
         "best_nodes": len(best_nodes),
         "real_check": real_check_stats,
-        "geoip_classified_nodes": geoip_classified,
+        "speed_test": {"selected": len(speed_candidates), "measured": len(measured_nodes)},
+        "country_classified_nodes": country_classified,
+        "country_cached_ips": cached_ips,
+        "country_queried_ips": queried_ips,
     }
     write_json(OUTPUT_DIR / "stats.json", stats)
-    update_history(unique_nodes, run_at)
+    update_history(unique_nodes, working_nodes if args.real_check else [], run_at)
     print(json.dumps(stats, ensure_ascii=False, indent=2))
     return 0
 
@@ -217,10 +305,6 @@ def parse_args() -> argparse.Namespace:
         type=int,
         default=64,
         help="number of VLESS nodes in one sing-box process (default: 64)",
-    )
-    parser.add_argument(
-        "--geoip-db",
-        help="path to GeoLite2-Country.mmdb for exit-IP country lookup",
     )
     return parser.parse_args()
 
