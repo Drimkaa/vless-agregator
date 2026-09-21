@@ -5,27 +5,27 @@
     "BY": 13,
     "DE": 1752,
     "EE": 195,
-    "FI": 573,
+    "FI": 572,
     "GE": 3,
     "KZ": 143,
     "LT": 121,
-    "LV": 289,
-    "NL": 949,
+    "LV": 287,
+    "NL": 947,
     "NO": 92,
-    "PL": 242,
+    "PL": 241,
     "SE": 169,
-    "TR": 468
+    "TR": 466
   },
   "country_mode": "server_address_ipinfo",
   "failed_sources": 0,
   "fetched_sources": 10,
-  "generated_at": "2026-09-21T19:35:23+00:00",
-  "geoip_cached_ips": 11669,
-  "geoip_queried_ips": 280,
+  "generated_at": "2026-09-21T19:40:45+00:00",
+  "geoip_cached_ips": 11820,
+  "geoip_queried_ips": 120,
   "parsed_nodes": 32179,
-  "resolved_hosts": 12617,
+  "resolved_hosts": 12611,
   "security_filter": "disabled",
-  "selected_nodes": 5026,
+  "selected_nodes": 5018,
   "sources": {
     "alirewa": {
       "parsed": 795,
@@ -85,5 +85,5 @@
     "TR"
   ],
   "unique_nodes": 21462,
-  "unresolved_hosts": 1639
+  "unresolved_hosts": 1645
 }
