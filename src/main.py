@@ -92,7 +92,12 @@ def write_country_subscription(path: Path, nodes: list[VlessNode], run_at: str, 
         country = node.country
         country_counts[country] = country_counts.get(country, 0) + 1
         flag = "".join(chr(0x1F1E6 + ord(letter) - ord("A")) for letter in country)
-        label = f"{flag} {country} #{country_counts[country]:03d}"
+        number = country_counts[country]
+        label = (
+            f"{flag} {country} #{number:03d}"
+            if node.name
+            else f"{flag} {country} | NO NAME #{number:03d}"
+        )
         lines.append(f"{node.uri.partition('#')[0]}#{quote(label, safe='')}")
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
