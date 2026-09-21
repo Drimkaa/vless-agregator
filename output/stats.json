@@ -3,29 +3,29 @@
   "country_counts": {
     "AZ": 17,
     "BY": 13,
-    "DE": 1733,
-    "EE": 196,
-    "FI": 569,
+    "DE": 1752,
+    "EE": 195,
+    "FI": 573,
     "GE": 3,
-    "KZ": 142,
-    "LT": 120,
-    "LV": 287,
-    "NL": 942,
-    "NO": 91,
+    "KZ": 143,
+    "LT": 121,
+    "LV": 289,
+    "NL": 949,
+    "NO": 92,
     "PL": 242,
-    "SE": 170,
-    "TR": 452
+    "SE": 169,
+    "TR": 468
   },
   "country_mode": "server_address_ipinfo",
   "failed_sources": 0,
   "fetched_sources": 10,
-  "generated_at": "2026-09-21T19:24:58+00:00",
-  "geoip_cached_ips": 20,
-  "geoip_queried_ips": 11899,
-  "parsed_nodes": 32112,
-  "resolved_hosts": 12585,
+  "generated_at": "2026-09-21T19:35:23+00:00",
+  "geoip_cached_ips": 11669,
+  "geoip_queried_ips": 280,
+  "parsed_nodes": 32179,
+  "resolved_hosts": 12617,
   "security_filter": "disabled",
-  "selected_nodes": 4977,
+  "selected_nodes": 5026,
   "sources": {
     "alirewa": {
       "parsed": 795,
@@ -40,7 +40,7 @@
       "url": "https://raw.githubusercontent.com/CaptchaQ/vless-servers/main/working_all.txt"
     },
     "ebrasha": {
-      "parsed": 20595,
+      "parsed": 20662,
       "url": "https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/vless_configs.txt"
     },
     "epodonios": {
@@ -84,6 +84,6 @@
     "SE",
     "TR"
   ],
-  "unique_nodes": 21391,
-  "unresolved_hosts": 1644
+  "unique_nodes": 21462,
+  "unresolved_hosts": 1639
 }
