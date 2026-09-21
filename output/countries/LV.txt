@@ -1,0 +1,1 @@
+vless://9bbd487f-8f84-4ad7-b897-681c3f7d95dc@ciccuc.mervi.icu:443?type=tcp&security=reality&sni=ciccuc.mervi.icu&fp=random&flow=xtls-rprx-vision&pbk=3J-u0CiyQk47zVzkuMVgOiVIYtomNZPr__85MDxGxVw&sid=5029592ae5516948#%F0%9F%87%B1%F0%9F%87%BB%20LV%20%2301%20%7C%205.5%20Mbps%20%7C%201066%20ms
