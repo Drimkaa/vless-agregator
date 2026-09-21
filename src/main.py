@@ -88,16 +88,16 @@ def write_country_subscription(path: Path, nodes: list[VlessNode], run_at: str, 
         "#subscriptions-sort-type: without",
     ]
     country_counts: dict[str, int] = {}
+    unnamed_count = 0
     for node in nodes:
-        country = node.country
-        country_counts[country] = country_counts.get(country, 0) + 1
-        flag = "".join(chr(0x1F1E6 + ord(letter) - ord("A")) for letter in country)
-        number = country_counts[country]
-        label = (
-            f"{flag} {country} #{number:03d}"
-            if node.name
-            else f"{flag} {country} | NO NAME #{number:03d}"
-        )
+        country = node.country.upper()
+        if len(country) == 2 and country.isascii() and country.isalpha() and country != "ZZ":
+            country_counts[country] = country_counts.get(country, 0) + 1
+            flag = "".join(chr(0x1F1E6 + ord(letter) - ord("A")) for letter in country)
+            label = f"{flag} {country} #{country_counts[country]:03d}"
+        else:
+            unnamed_count += 1
+            label = f"NO NAME #{unnamed_count:03d}"
         lines.append(f"{node.uri.partition('#')[0]}#{quote(label, safe='')}")
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
@@ -123,7 +123,7 @@ def build_country_only(
         raise RuntimeError("No nodes matched the selected countries; subscription was not replaced")
     groups = group_by_country(selected)
     timestamp = datetime.fromisoformat(run_at).astimezone(timezone(timedelta(hours=3)))
-    title = f"VLESS рядом {timestamp:%d.%m %H:%M}"
+    title = f"Мои {len(selected)} конф. {timestamp:%d.%m %H:%M}"
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     write_country_subscription(OUTPUT_DIR / "best.txt", selected, run_at, title)
