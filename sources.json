@@ -1,0 +1,58 @@
+[
+  {
+    "name": "rjsxrd",
+    "url": "https://raw.githubusercontent.com/whoahaow/rjsxrd/main/githubmirror/split-by-protocols/vless-secure.txt",
+    "enabled": false,
+    "note": "The published vless-secure.txt path currently returns 404"
+  },
+  {
+    "name": "igareck",
+    "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt",
+    "enabled": true
+  },
+  {
+    "name": "igareck-mobile",
+    "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt",
+    "enabled": true
+  },
+  {
+    "name": "p-configs",
+    "url": "https://raw.githubusercontent.com/VovaplusEXP/p-configs/main/Splitted-By-Protocol-Secure/vless.txt",
+    "enabled": true
+  },
+  {
+    "name": "captchaq",
+    "url": "https://raw.githubusercontent.com/CaptchaQ/vless-servers/main/working_all.txt",
+    "enabled": true
+  },
+  {
+    "name": "nexus-nodes",
+    "url": "https://raw.githubusercontent.com/ninjastrikers/Nexus-nodes/main/configs/vless.txt",
+    "enabled": true
+  },
+  {
+    "name": "ebrasha",
+    "url": "https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/vless_configs.txt",
+    "enabled": true
+  },
+  {
+    "name": "epodonios",
+    "url": "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Splitted-By-Protocol/vless.txt",
+    "enabled": true
+  },
+  {
+    "name": "barry-far",
+    "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/vless.txt",
+    "enabled": true
+  },
+  {
+    "name": "alirewa",
+    "url": "https://raw.githubusercontent.com/Alirewa/V2ray-Configs/main/config.txt",
+    "enabled": true
+  },
+  {
+    "name": "proxycollector",
+    "url": "https://raw.githubusercontent.com/Mahdi0024/ProxyCollector/master/sub/proxies.txt",
+    "enabled": true
+  }
+]
