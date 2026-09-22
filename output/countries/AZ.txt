@@ -1,5 +1,5 @@
-#profile-title: VLESS AZ 22.09 02:17
-#sub-info-text: Обновлено: 22.09.2026 02:17 МСК | Конфигов: 17 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS AZ 22.09 07:57
+#sub-info-text: Обновлено: 22.09.2026 07:57 МСК | Конфигов: 17 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://yakVV3oUoduFpO@180.149.44.182:443?security=reality&encryption=none&pbk=1hpQddP3pM6e50Y6vCPe2t3mjDExFeiWxMGWyeiIq28&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.icloud.com&sid=948c2371#%F0%9F%87%A6%F0%9F%87%BF%20AZ%20%23001
