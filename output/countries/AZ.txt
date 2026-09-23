@@ -1,5 +1,5 @@
-#profile-title: VLESS AZ 23.09 16:39
-#sub-info-text: Обновлено: 23.09.2026 16:39 МСК | Конфигов: 18 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS AZ 23.09 21:24
+#sub-info-text: Обновлено: 23.09.2026 21:24 МСК | Конфигов: 17 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://yakVV3oUoduFpO@180.149.44.182:443?security=reality&encryption=none&pbk=1hpQddP3pM6e50Y6vCPe2t3mjDExFeiWxMGWyeiIq28&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.icloud.com&sid=948c2371#%F0%9F%87%A6%F0%9F%87%BF%20AZ%20%23001
@@ -19,4 +19,3 @@ vless://bf58f3cd-7c8c-4650-bd7a-028df18b3ba0@azf.supros.ir:2026?encryption=none&
 vless://c12db015-a63c-43e5-a744-6398a90373b5@basalam.horqen.ir:21289?&type=tcp&headerType=none&host=basalam.horqen.ir&path=%2F#%F0%9F%87%A6%F0%9F%87%BF%20AZ%20%23015
 vless://c12db015-a63c-43e5-a744-6398a90373b5@basalam.horqen.ir:21289?security=&alpn=v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus&encryption=none&headerType=none&type=tcp#%F0%9F%87%A6%F0%9F%87%BF%20AZ%20%23016
 vless://c12db015-a63c-43e5-a744-6398a90373b5@basalam.horqen.ir:21289?security=&amp;alpn=v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus&amp;encryption=none&amp;headerType=none&amp;type=tcp#%F0%9F%87%A6%F0%9F%87%BF%20AZ%20%23017
-vless://ef9ebd69-1274-4d65-8e01-6eda8f757810@donttursttttt.quickpl.ir:50649?security=none&encryption=mlkem768x25519plus.native.0rtt.tmnG1vwjgfEAuHvBDJd9xLzrLJSk8Ts9IxU2oa2nYjE&headerType=none&type=tcp#%F0%9F%87%A6%F0%9F%87%BF%20AZ%20%23018

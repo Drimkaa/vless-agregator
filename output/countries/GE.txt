@@ -1,5 +1,5 @@
-#profile-title: VLESS GE 23.09 16:39
-#sub-info-text: Обновлено: 23.09.2026 16:39 МСК | Конфигов: 3 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS GE 23.09 21:24
+#sub-info-text: Обновлено: 23.09.2026 21:24 МСК | Конфигов: 3 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://497631c4-a1a4-45ff-a86a-f42873473bb6@194.135.119.164:443?type=tcp&headerType=none&security=reality&encryption=none&sni=ge.quattro-tech.ru&fp=firefox&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&sid=43dcff53849b81e6&flow=xtls-rprx-vision#%F0%9F%87%AC%F0%9F%87%AA%20GE%20%23001
