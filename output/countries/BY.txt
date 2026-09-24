@@ -1,5 +1,5 @@
-#profile-title: VLESS BY 24.09 20:12
-#sub-info-text: Обновлено: 24.09.2026 20:12 МСК | Конфигов: 13 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS BY 25.09 00:31
+#sub-info-text: Обновлено: 25.09.2026 00:31 МСК | Конфигов: 13 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://8fab26eb-f2eb-4c10-a11d-f7e5202930e4@134.17.16.156:443?security=reality&encryption=none&pbk=l1mx_plNc2oiWxJCcZLh3SGfFU-5QxYpgQ__Ea59WEg&fp=chrome&type=grpc&serviceName=webhook&sni=ads.x5.ru&sid=91d568bc3b#%F0%9F%87%A7%F0%9F%87%BE%20BY%20%23001
