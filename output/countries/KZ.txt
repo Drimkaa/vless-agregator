@@ -1,5 +1,5 @@
-#profile-title: VLESS KZ 24.09 07:52
-#sub-info-text: Обновлено: 24.09.2026 07:52 МСК | Конфигов: 133 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS KZ 24.09 14:47
+#sub-info-text: Обновлено: 24.09.2026 14:47 МСК | Конфигов: 133 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://ff1b0b50-70dc-4bae-866e-55cff86f4d6d@109.233.110.155:443?security=reality&type=tcp&sni=721a6718.nosok-top.com&fp=firefox&flow=xtls-rprx-vision&sid=f05d81d32f5e4b94&pbk=Gb6vTF6pp6xZ-U9PTlS4bBjGvKkuopU9SO785ELYVSs&encryption=none#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23001
