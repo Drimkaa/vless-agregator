@@ -1,5 +1,5 @@
-#profile-title: VLESS LT 26.09 19:24
-#sub-info-text: Обновлено: 26.09.2026 19:24 МСК | Конфигов: 116 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS LT 27.09 00:11
+#sub-info-text: Обновлено: 27.09.2026 00:11 МСК | Конфигов: 116 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://5e1083b9-4d4f-50ef-93e7-6e966dfce1f9@104.249.43.148:443?security=reality&type=tcp&sni=microsoft.com&fp=firefox&sid=d1172867&pbk=6M7gWx17aFEwFa65jjCLldc2UqOUQuBbQO_Rkx5Z9h4&encryption=none#%F0%9F%87%B1%F0%9F%87%B9%20LT%20%23001
@@ -80,8 +80,8 @@ vless://583ceab3-4022-4553-9158-9bedc625ad4e@89.116.161.177:8880/?type=ws&encryp
 vless://2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5@89.116.161.250:8443?encryption=none&security=tls&sni=cfed.tgzdyz2.top&fp=random&type=ws&host=cfed.tgzdyz2.top&path=TG%40ZDYZ2#%F0%9F%87%B1%F0%9F%87%B9%20LT%20%23076
 vless://0132166f-e702-48ed-a9e7-b07af768faf8@89.116.161.251:8880/?type=ws&encryption=none&host=cf.d3z.net&path=%2F#%F0%9F%87%B1%F0%9F%87%B9%20LT%20%23077
 vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@89.116.161.29:8880?security=&sni=hk.laoyoutiao.link&allowInsecure=1&type=ws&path=/TelegramU0001F1E8U0001F1F3%20@MxlShare%20@WangCai2%20/?ed%3D2560&host=hk.laoyoutiao.link&encryption=none#%F0%9F%87%B1%F0%9F%87%B9%20LT%20%23078
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@89.116.250.135:443?path=%2Frdfgtws&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=vangoghhh.info&amp;type=ws&amp;allowInsecure=0&amp;sni=vangoghhh.info#%F0%9F%87%B1%F0%9F%87%B9%20LT%20%23079
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@89.116.250.135:443?path=/rdfgtws&security=tls&encryption=none&insecure=0&host=vangoghhh.info&type=ws&allowInsecure=0&sni=vangoghhh.info#%F0%9F%87%B1%F0%9F%87%B9%20LT%20%23080
+vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@89.116.250.135:443?path=/rdfgtws&security=tls&encryption=none&insecure=0&host=vangoghhh.info&type=ws&allowInsecure=0&sni=vangoghhh.info#%F0%9F%87%B1%F0%9F%87%B9%20LT%20%23079
+vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@89.116.250.135:443?path=%2Frdfgtws&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=vangoghhh.info&amp;type=ws&amp;allowInsecure=0&amp;sni=vangoghhh.info#%F0%9F%87%B1%F0%9F%87%B9%20LT%20%23080
 vless://ee2bb495-2632-445b-b1f8-3c476a50b78b@89.116.250.203:2053?path=%2F%3FTELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D512&security=tls&encryption=none&host=dl1-tr-cdn.easy-upload.org&type=ws&sni=dl1-tr-cdn.easy-upload.org#%F0%9F%87%B1%F0%9F%87%B9%20LT%20%23081
 vless://0132166f-e702-48ed-a9e7-b07af768faf8@89.116.250.251:8880/?type=ws&encryption=none&host=cf.d3z.net&path=%2F#%F0%9F%87%B1%F0%9F%87%B9%20LT%20%23082
 vless://ee2bb495-2632-445b-b1f8-3c476a50b78b@89.116.250.49:2053?path=%2F&security=tls&encryption=none&host=dl1-tr-cdn.easy-upload.org&type=ws&sni=dl1-tr-cdn.easy-upload.org#%F0%9F%87%B1%F0%9F%87%B9%20LT%20%23083
