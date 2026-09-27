@@ -1,10 +1,10 @@
-#profile-title: VLESS AZ 27.09 03:37
-#sub-info-text: Обновлено: 27.09.2026 03:37 МСК | Конфигов: 18 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS AZ 27.09 11:11
+#sub-info-text: Обновлено: 27.09.2026 11:11 МСК | Конфигов: 18 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://yakVV3oUoduFpO@180.149.44.182:443?security=reality&encryption=none&pbk=1hpQddP3pM6e50Y6vCPe2t3mjDExFeiWxMGWyeiIq28&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.icloud.com&sid=948c2371#%F0%9F%87%A6%F0%9F%87%BF%20AZ%20%23001
 vless://c12db015-a63c-43e5-a744-6398a90373b5@180.149.45.140:21289?type=tcp&alpn=v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus#%F0%9F%87%A6%F0%9F%87%BF%20AZ%20%23002
-vless://6774780f-4a9d-4c47-8b20-7b38d4e39639@180.149.45.195:37532?security=none&encryption=none&host=tapsi.ir&headerType=none&type=tcp#%F0%9F%87%A6%F0%9F%87%BF%20AZ%20%23003
+vless://6774780f-4a9d-4c47-8b20-7b38d4e39639@180.149.45.195:37532?security=none&amp;encryption=none&amp;host=tapsi.ir&amp;headerType=none&amp;type=tcp#%F0%9F%87%A6%F0%9F%87%BF%20AZ%20%23003
 vless://1c569d2b-2b47-4537-b3e4-3b5e584e7261@180.149.45.23:51263?security=reality&encryption=mlkem768x25519plus.native.0rtt.z2lQdZuAvw8Z9sKuq4FPN9yFFy6avST0-wfa_U3r4ik&pbk=6-NCqGgOv0nBZSIEMECZh0yaA_IuGEl2Vr1IVvY5Kx0&headerType=none&fp=chrome&type=tcp&sni=www.fnac.com&sid=053fc431129db566#%F0%9F%87%A6%F0%9F%87%BF%20AZ%20%23004
 vless://b543c35e-ec44-4979-849b-84099ca8a3d8@180.149.45.30:2026?security=reality&encryption=none&pbk=484wYbkS2hs2WSdXmk2-bOeKZkdBbzdD7uZ1WmRIEj8&host=play.google.com&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=ca930e5d4a603c6a#%F0%9F%87%A6%F0%9F%87%BF%20AZ%20%23005
 vless://505a1a16-2c67-4cbb-a5db-acde6627660b@180.149.45.73:9010?security=reality&encryption=none&pbk=KN1iC4QtWi2hKbQ1zJerNck6YRGbIpzdLMn1C2hhQjs&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=play.google.com&sid=e8b1541e7387ffba#%F0%9F%87%A6%F0%9F%87%BF%20AZ%20%23006
