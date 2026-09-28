@@ -1,5 +1,5 @@
-#profile-title: VLESS LV 28.09 02:03
-#sub-info-text: Обновлено: 28.09.2026 02:03 МСК | Конфигов: 262 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS LV 28.09 08:25
+#sub-info-text: Обновлено: 28.09.2026 08:25 МСК | Конфигов: 262 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://904a9a3e-1d23-4b33-9830-cab1a34d0b41@0in.pin.spaidan.ir:27594?encryption=none&amp;security=none&amp;type=tcp#%F0%9F%87%B1%F0%9F%87%BB%20LV%20%23001
