@@ -1,5 +1,5 @@
-#profile-title: VLESS KZ 28.09 23:34
-#sub-info-text: Обновлено: 28.09.2026 23:34 МСК | Конфигов: 65 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS KZ 29.09 04:59
+#sub-info-text: Обновлено: 29.09.2026 04:59 МСК | Конфигов: 65 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://b573cefb-7bc7-4a42-b407-b8b534e66773@109.248.170.119:13447?security=reality&fp=chrome&pbk=_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE&sid=83&sni=yahoo.com#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23001
@@ -18,8 +18,8 @@ vless://48198295-b7ba-4b5c-8d85-085d55a6c869@194.76.18.130:443?encryption=none&s
 vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@194.76.18.20:8880/?type=ws&encryption=none&host=reedfree8mahsang2.redorg.ir&path=%2F%3Fed%3D2560#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23014
 vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@194.76.18.213:8880?allowInsecure=0&sni=jp.laoyoutiao.link&type=ws&host=jp.laoyoutiao.link&path=/#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23015
 vless://a13df940-020c-465f-bc89-ee5279b5cd6a@194.76.18.243:443/?type=ws&encryption=none&path=%2Fblue&security=tls&sni=lk.kpcloud.eu.org#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23016
-vless://e65a5cbc-5663-4f7d-ad7d-800e86ba487d@194.76.18.25:443?security=tls&sni=rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg&allowInsecure=1&fp=chrome&type=ws&path=/ws&host=rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg&encryption=none#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23017
-vless://e65a5cbc-5663-4f7d-ad7d-800e86ba487d@194.76.18.25:443?security=tls&sni=rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg&allowInsecure=1&fp=chrome&type=ws&path=/ws&host=rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg&encryption=none#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23018
+vless://e65a5cbc-5663-4f7d-ad7d-800e86ba487d@194.76.18.25:443?security=tls&sni=rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg&allowInsecure=1&fp=chrome&type=ws&path=/ws&host=rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg&encryption=none#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23017
+vless://e65a5cbc-5663-4f7d-ad7d-800e86ba487d@194.76.18.25:443?security=tls&sni=rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg&allowInsecure=1&fp=chrome&type=ws&path=/ws&host=rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg&encryption=none#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23018
 vless://19be7308-1f67-4f47-a09a-48543a741f12@194.76.18.253:2082/?type=httpupgrade&encryption=none&host=Join-bede-CONFIGT.wordperessweb.ir&path=%2FChannel-CONFIGT%3Fed%3D2082#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23019
 vless://01970283-51b9-4ad4-96ef-9dfc8ee3dd74@194.76.18.253:2087/?type=grpc&encryption=none&serviceName=%F0%9F%91%A8%E2%80%8D%F0%9F%9A%80Free%F0%9F%91%A8%E2%80%8D%F0%9F%9A%80&security=tls&sni=qauuf2.telzirrr.com.tr&fp=chrome#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23020
 vless://ae564d93-0a3f-40b6-9137-4b73da4432c5@194.76.18.46:2052/?type=httpupgrade&encryption=none&host=ch-configt1.nipytee.info#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23021
