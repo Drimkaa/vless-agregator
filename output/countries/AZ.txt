@@ -1,5 +1,5 @@
-#profile-title: VLESS AZ 07.10 20:25
-#sub-info-text: Обновлено: 07.10.2026 20:25 МСК | Конфигов: 3 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS AZ 08.10 02:06
+#sub-info-text: Обновлено: 08.10.2026 02:06 МСК | Конфигов: 3 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://d0236924-dd68-4c96-8113-cbea03b917a1@188.64.12.3:443?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%A6%F0%9F%87%BF%20AZ%20%23001
