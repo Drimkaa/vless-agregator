@@ -1,5 +1,5 @@
-#profile-title: VLESS BY 08.10 22:57
-#sub-info-text: Обновлено: 08.10.2026 22:57 МСК | Конфигов: 8 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS BY 09.10 03:23
+#sub-info-text: Обновлено: 09.10.2026 03:23 МСК | Конфигов: 8 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://c18b978e-1c4e-415c-8bea-07942b563a64@185.179.82.201:443?fp=chrome&host=shuma.ccwu.cc&path=%2F&security=tls&sni=shuma.ccwu.cc&type=ws#%F0%9F%87%A7%F0%9F%87%BE%20BY%20%23001
