@@ -1,5 +1,5 @@
-#profile-title: VLESS NO 10.10 08:54
-#sub-info-text: Обновлено: 10.10.2026 08:54 МСК | Конфигов: 27 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS NO 10.10 15:33
+#sub-info-text: Обновлено: 10.10.2026 15:33 МСК | Конфигов: 27 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://749a5df1-2d12-45cf-80f3-f85ea6b2e405@144.31.217.99:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=google.com&security=reality&pbk=Fp0-VrMBeaQe9xOrehDYHt0mqTZL-5CdfuMEzoXkOE8&sid=#%F0%9F%87%B3%F0%9F%87%B4%20NO%20%23001
