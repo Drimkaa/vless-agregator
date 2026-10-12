@@ -1,9 +1,7 @@
-#profile-title: VLESS BY 12.10 02:40
-#sub-info-text: Обновлено: 12.10.2026 02:40 МСК | Конфигов: 5 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS BY 12.10 08:59
+#sub-info-text: Обновлено: 12.10.2026 08:59 МСК | Конфигов: 3 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://a34b5e88-cf0d-4c01-8199-2d1002d3c787@185.66.68.72:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.wikihow.com&fp=chrome&security=reality&pbk=HKpd1sbrhBds8SJSL0d22MAq_QyTR6EP6y5b5DYol3U&sid=#%F0%9F%87%A7%F0%9F%87%BE%20BY%20%23001
-vless://5b5e4cbf-2366-499a-8327-0cd9918c687d@189.74.124.83:443?security=tls&alpn=h2,http/1.1&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&flow=xtls-rprx-vision&sni=console.surfweb.club#%F0%9F%87%A7%F0%9F%87%BE%20BY%20%23002
-vless://5b5e4cbf-2366-499a-8327-0cd9918c687d@189.74.124.83:443?security=tls&alpn=h2,http/1.1&encryption=none&insecure=0&host=/?telegram--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI&headerType=none&fp=chrome&type=tcp&allowInsecure=0&flow=xtls-rprx-vision&sni=console.surfweb.club#%F0%9F%87%A7%F0%9F%87%BE%20BY%20%23003
-vless://5b5e4cbf-2366-499a-8327-0cd9918c687d@189.74.124.83:443?security=tls&alpn=h2,http/1.1&encryption=none&insecure=0&host=/@Net2ray&headerType=none&fp=chrome&type=tcp&allowInsecure=0&flow=xtls-rprx-vision&sni=console.surfweb.club#%F0%9F%87%A7%F0%9F%87%BE%20BY%20%23004
-vless://c50680f6-8dc9-44cc-a8fe-72cab1f7f51b@87.252.237.219:8443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=tradingview.com&fp=chrome&security=reality&pbk=VE6aUAkSRew5ySZw80myEtL1LOWwDo7BuYyuIKaYPUI&sid=#%F0%9F%87%A7%F0%9F%87%BE%20BY%20%23005
+vless://5b5e4cbf-2366-499a-8327-0cd9918c687d@189.74.124.83:443?security=tls&alpn=h2,http/1.1&encryption=none&insecure=0&host=/@Net2ray&headerType=none&fp=chrome&type=tcp&allowInsecure=0&flow=xtls-rprx-vision&sni=console.surfweb.club#%F0%9F%87%A7%F0%9F%87%BE%20BY%20%23002
+vless://c50680f6-8dc9-44cc-a8fe-72cab1f7f51b@87.252.237.219:8443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=tradingview.com&fp=chrome&security=reality&pbk=VE6aUAkSRew5ySZw80myEtL1LOWwDo7BuYyuIKaYPUI&sid=#%F0%9F%87%A7%F0%9F%87%BE%20BY%20%23003
