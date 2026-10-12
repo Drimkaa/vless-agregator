@@ -1,5 +1,5 @@
-#profile-title: VLESS BY 12.10 18:27
-#sub-info-text: Обновлено: 12.10.2026 18:27 МСК | Конфигов: 3 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS BY 13.10 02:00
+#sub-info-text: Обновлено: 13.10.2026 02:00 МСК | Конфигов: 3 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://a34b5e88-cf0d-4c01-8199-2d1002d3c787@185.66.68.72:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.wikihow.com&fp=chrome&security=reality&pbk=HKpd1sbrhBds8SJSL0d22MAq_QyTR6EP6y5b5DYol3U&sid=#%F0%9F%87%A7%F0%9F%87%BE%20BY%20%23001
