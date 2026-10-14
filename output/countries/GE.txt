@@ -1,9 +1,9 @@
-#profile-title: VLESS GE 14.10 04:13
-#sub-info-text: Обновлено: 14.10.2026 04:13 МСК | Конфигов: 5 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS GE 14.10 10:39
+#sub-info-text: Обновлено: 14.10.2026 10:39 МСК | Конфигов: 5 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://ce5949b7-5137-4007-8a0a-063aad88b920@147.45.46.3:443?security=reality&encryption=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=sellflow.org#%F0%9F%87%AC%F0%9F%87%AA%20GE%20%23001
 vless://441a29b2-d9aa-47d5-9209-0a9191479f9f@185.143.179.179:25026?security=reality&encryption=none&pbk=RVh0D446O5pKnOqlNkJNxSGGbmzl8swn4YBXYce1HSw&headerType=&fp=safari&type=tcp&flow=xtls-rprx-vision&sni=www.google.com&sid=34c465417d7ebca0#%F0%9F%87%AC%F0%9F%87%AA%20GE%20%23002
-vless://0773c95e-21b5-4c6f-a471-3a48ed43521f@213.182.201.11:3090?mode=multi&security=none&encryption=none&type=grpc&serviceName=vless#%F0%9F%87%AC%F0%9F%87%AA%20GE%20%23003
-vless://0773c95e-21b5-4c6f-a471-3a48ed43521f@213.182.201.11:3090?mode=multi&amp;security=none&amp;encryption=none&amp;type=grpc&amp;serviceName=vless#%F0%9F%87%AC%F0%9F%87%AA%20GE%20%23004
+vless://0773c95e-21b5-4c6f-a471-3a48ed43521f@213.182.201.11:3090?mode=multi&amp;security=none&amp;encryption=none&amp;authority=PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&amp;type=grpc&amp;serviceName=vless#%F0%9F%87%AC%F0%9F%87%AA%20GE%20%23003
+vless://0773c95e-21b5-4c6f-a471-3a48ed43521f@213.182.201.11:3090?mode=multi&security=none&encryption=none&type=grpc&serviceName=vless#%F0%9F%87%AC%F0%9F%87%AA%20GE%20%23004
 vless://c3c65000-7c1a-40b6-bf10-74da14f76f6a@213.182.201.15:3090?mode=multi&security=none&encryption=none&type=grpc&serviceName=vless#%F0%9F%87%AC%F0%9F%87%AA%20GE%20%23005
