@@ -3,56 +3,56 @@
   "country_counts": {
     "AZ": 5,
     "BY": 13,
-    "DE": 1100,
-    "EE": 69,
-    "FI": 356,
+    "DE": 1086,
+    "EE": 70,
+    "FI": 359,
     "GE": 3,
-    "KZ": 24,
-    "LT": 40,
-    "LV": 66,
-    "NL": 699,
+    "KZ": 23,
+    "LT": 46,
+    "LV": 72,
+    "NL": 708,
     "NO": 19,
-    "PL": 254,
-    "SE": 155,
-    "TR": 97
+    "PL": 240,
+    "SE": 159,
+    "TR": 94
   },
   "country_mode": "server_address_ipinfo",
   "failed_sources": 0,
   "fetched_sources": 10,
-  "generated_at": "2026-10-17T00:29:46+00:00",
-  "geoip_cached_ips": 4960,
-  "geoip_queried_ips": 35,
-  "parsed_nodes": 19831,
-  "resolved_hosts": 5463,
+  "generated_at": "2026-10-17T06:58:11+00:00",
+  "geoip_cached_ips": 4831,
+  "geoip_queried_ips": 86,
+  "parsed_nodes": 19862,
+  "resolved_hosts": 5367,
   "security_filter": "disabled",
-  "selected_nodes": 2900,
+  "selected_nodes": 2897,
   "sources": {
     "alirewa": {
-      "parsed": 736,
+      "parsed": 725,
       "url": "https://raw.githubusercontent.com/Alirewa/V2ray-Configs/main/config.txt"
     },
     "barry-far": {
-      "parsed": 5698,
+      "parsed": 5634,
       "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/vless.txt"
     },
     "captchaq": {
-      "parsed": 175,
+      "parsed": 164,
       "url": "https://raw.githubusercontent.com/CaptchaQ/vless-servers/main/working_all.txt"
     },
     "ebrasha": {
-      "parsed": 8341,
+      "parsed": 8380,
       "url": "https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/vless_configs.txt"
     },
     "epodonios": {
-      "parsed": 4079,
+      "parsed": 4112,
       "url": "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Splitted-By-Protocol/vless.txt"
     },
     "igareck": {
-      "parsed": 93,
+      "parsed": 162,
       "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt"
     },
     "igareck-mobile": {
-      "parsed": 126,
+      "parsed": 102,
       "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt"
     },
     "nexus-nodes": {
@@ -84,6 +84,6 @@
     "SE",
     "TR"
   ],
-  "unique_nodes": 9541,
+  "unique_nodes": 9333,
   "unresolved_hosts": 437
 }
