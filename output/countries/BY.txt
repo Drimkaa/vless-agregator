@@ -1,5 +1,5 @@
-#profile-title: VLESS BY 18.10 14:06
-#sub-info-text: Обновлено: 18.10.2026 14:06 МСК | Конфигов: 3 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS BY 18.10 18:53
+#sub-info-text: Обновлено: 18.10.2026 18:53 МСК | Конфигов: 3 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://1af36694-b548-4b18-89a0-bc076eab4ed7@178.172.227.124:14430?encryption=none&host=178.172.227.124&path=/vless&security=none&type=ws#%F0%9F%87%A7%F0%9F%87%BE%20BY%20%23001
