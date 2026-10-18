@@ -1,7 +1,6 @@
-#profile-title: VLESS AZ 18.10 21:38
-#sub-info-text: Обновлено: 18.10.2026 21:38 МСК | Конфигов: 3 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS AZ 19.10 01:26
+#sub-info-text: Обновлено: 19.10.2026 01:26 МСК | Конфигов: 2 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://d0236924-dd68-4c96-8113-cbea03b917a1@188.64.12.3:443?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%A6%F0%9F%87%BF%20AZ%20%23001
 vless://456ecff9-c221-4915-8aa7-2e5745a30935@az.sparxiecn.com:443?security=reality&encryption=none&pbk=6AW8ehYuPtg84kBaGbAN8dumEH3epgwV2rGMPGKyBxI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.oracle.com&sid=af134fdf0bd9f346#%F0%9F%87%A6%F0%9F%87%BF%20AZ%20%23002
-vless://c12db015-a63c-43e5-a744-6398a90373b5@basalam.horqen.ir:21289?security=&alpn=v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus&encryption=none&headerType=none&type=tcp#%F0%9F%87%A6%F0%9F%87%BF%20AZ%20%23003
