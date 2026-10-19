@@ -1,6 +1,6 @@
-#profile-title: VLESS GE 19.10 01:26
-#sub-info-text: Обновлено: 19.10.2026 01:26 МСК | Конфигов: 2 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS GE 19.10 07:42
+#sub-info-text: Обновлено: 19.10.2026 07:42 МСК | Конфигов: 2 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://ce5949b7-5137-4007-8a0a-063aad88b920@147.45.46.3:443?security=reality&encryption=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=sellflow.org#%F0%9F%87%AC%F0%9F%87%AA%20GE%20%23001
-vless://dbc8a7a7-4c99-4aff-a50a-9940f992ef88@213.182.201.11:3090?serviceName=vless&mode=multi&encryption=none&security=none&type=grpc#%F0%9F%87%AC%F0%9F%87%AA%20GE%20%23002
+vless://dbc8a7a7-4c99-4aff-a50a-9940f992ef88@213.182.201.11:3090?encryption=none&mode=multi&security=none&serviceName=vless&type=grpc#%F0%9F%87%AC%F0%9F%87%AA%20GE%20%23002
