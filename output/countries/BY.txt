@@ -1,7 +1,8 @@
-#profile-title: VLESS BY 20.10 02:43
-#sub-info-text: Обновлено: 20.10.2026 02:43 МСК | Конфигов: 3 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS BY 20.10 07:52
+#sub-info-text: Обновлено: 20.10.2026 07:52 МСК | Конфигов: 4 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://1af36694-b548-4b18-89a0-bc076eab4ed7@178.172.227.124:14430?encryption=none&host=178.172.227.124&path=/vless&security=none&type=ws#%F0%9F%87%A7%F0%9F%87%BE%20BY%20%23001
 vless://5b5e4cbf-2366-499a-8327-0cd9918c687d@189.74.124.83:443?security=tls&alpn=h2,http/1.1&encryption=none&insecure=0&host=/@Net2ray&headerType=none&fp=chrome&type=tcp&allowInsecure=0&flow=xtls-rprx-vision&sni=console.surfweb.club#%F0%9F%87%A7%F0%9F%87%BE%20BY%20%23002
 vless://8cef7621-c6f0-486e-b51d-59c30c5b0b25@95.128.71.79:14430?encryption=none&host=95.128.71.79&path=/vless&security=none&type=ws#%F0%9F%87%A7%F0%9F%87%BE%20BY%20%23003
+vless://8d42d29a-ed53-4684-a9ff-6b33826149de@95.130.84.36:8443?security=tls&type=ws&sni=aio.eth0.dpdns.org&path=%2Faioproxybot%2F94.23.144.99-2053&host=aio.eth0.dpdns.org#%F0%9F%87%A7%F0%9F%87%BE%20BY%20%23004
