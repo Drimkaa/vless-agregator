@@ -1,5 +1,5 @@
-#profile-title: VLESS LT 20.10 14:38
-#sub-info-text: Обновлено: 20.10.2026 14:38 МСК | Конфигов: 8 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS LT 20.10 20:08
+#sub-info-text: Обновлено: 20.10.2026 20:08 МСК | Конфигов: 8 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://408c51e8-9246-483d-ba73-34ab4e202eb9@147.45.217.140:21731?security=reality&encryption=none&pbk=QeLV1NQeTG3e1DRFSNnK_f9Ca5Gf9smexICxtr27WUA&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=metrika.yandex.ru&sid=0446eb17#%F0%9F%87%B1%F0%9F%87%B9%20LT%20%23001

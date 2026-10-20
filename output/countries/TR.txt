@@ -1,5 +1,5 @@
-#profile-title: VLESS TR 20.10 14:38
-#sub-info-text: Обновлено: 20.10.2026 14:38 МСК | Конфигов: 53 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS TR 20.10 20:08
+#sub-info-text: Обновлено: 20.10.2026 20:08 МСК | Конфигов: 53 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://247396b2-12d9-4744-8203-9cd761a1117a@107.181.155.210:44030?encryption=none&type=tcp&headerType=http&host=play.google.com#%F0%9F%87%B9%F0%9F%87%B7%20TR%20%23001
