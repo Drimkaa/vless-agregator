@@ -1,5 +1,5 @@
-#profile-title: VLESS NO 21.10 16:49
-#sub-info-text: Обновлено: 21.10.2026 16:49 МСК | Конфигов: 12 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS NO 21.10 21:39
+#sub-info-text: Обновлено: 21.10.2026 21:39 МСК | Конфигов: 12 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@185.14.97.217:8443?encryption=none&security=tls&sni=snip.edgeoneai.cc.cd&fp=chrome&type=ws&host=snip.edgeoneai.cc.cd&path=%2F#%F0%9F%87%B3%F0%9F%87%B4%20NO%20%23001
