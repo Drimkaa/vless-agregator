@@ -1,5 +1,5 @@
-#profile-title: VLESS NO 21.10 00:38
-#sub-info-text: Обновлено: 21.10.2026 00:38 МСК | Конфигов: 11 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS NO 21.10 03:37
+#sub-info-text: Обновлено: 21.10.2026 03:37 МСК | Конфигов: 11 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://20000024-8788-9182-f000-a35f2e23a020@185.243.218.182:322?security=reality&encryption=none&pbk=T7JiblULt3JN3iWxcGPD9E912LAneFSPA3J05PD9MjA&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=wyrebyte.com&sid=2757df499273bcb2#%F0%9F%87%B3%F0%9F%87%B4%20NO%20%23001
