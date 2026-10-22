@@ -2,37 +2,37 @@
   "availability_checked": false,
   "country_counts": {
     "AZ": 2,
-    "BY": 3,
-    "DE": 554,
-    "EE": 36,
-    "FI": 165,
+    "BY": 1,
+    "DE": 555,
+    "EE": 38,
+    "FI": 166,
     "GE": 1,
-    "KZ": 5,
-    "LT": 8,
-    "LV": 26,
-    "NL": 334,
+    "KZ": 6,
+    "LT": 10,
+    "LV": 24,
+    "NL": 323,
     "NO": 11,
     "PL": 101,
-    "SE": 58,
-    "TR": 56
+    "SE": 70,
+    "TR": 59
   },
   "country_mode": "server_address_ipinfo",
-  "failed_sources": 2,
-  "fetched_sources": 8,
-  "generated_at": "2026-10-22T11:54:15+00:00",
-  "geoip_cached_ips": 2207,
-  "geoip_queried_ips": 85,
-  "parsed_nodes": 10612,
-  "resolved_hosts": 2466,
+  "failed_sources": 1,
+  "fetched_sources": 9,
+  "generated_at": "2026-10-22T17:11:39+00:00",
+  "geoip_cached_ips": 2275,
+  "geoip_queried_ips": 105,
+  "parsed_nodes": 11046,
+  "resolved_hosts": 2561,
   "security_filter": "disabled",
-  "selected_nodes": 1360,
+  "selected_nodes": 1367,
   "sources": {
     "alirewa": {
-      "parsed": 740,
+      "parsed": 739,
       "url": "https://raw.githubusercontent.com/Alirewa/V2ray-Configs/main/config.txt"
     },
     "barry-far": {
-      "parsed": 5454,
+      "parsed": 5396,
       "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/vless.txt"
     },
     "captchaq": {
@@ -44,19 +44,19 @@
       "url": "https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/vless_configs.txt"
     },
     "epodonios": {
-      "parsed": 4135,
+      "parsed": 4099,
       "url": "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Splitted-By-Protocol/vless.txt"
     },
     "igareck": {
-      "parsed": 50,
+      "parsed": 64,
       "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt"
     },
     "igareck-mobile": {
-      "parsed": 49,
+      "parsed": 84,
       "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt"
     },
     "nexus-nodes": {
-      "error": "URLError: <urlopen error [Errno 104] Connection reset by peer>",
+      "parsed": 495,
       "url": "https://raw.githubusercontent.com/ninjastrikers/Nexus-nodes/main/configs/vless.txt"
     },
     "p-configs": {
@@ -64,7 +64,7 @@
       "url": "https://raw.githubusercontent.com/VovaplusEXP/p-configs/main/Splitted-By-Protocol-Secure/vless.txt"
     },
     "proxycollector": {
-      "parsed": 17,
+      "parsed": 2,
       "url": "https://raw.githubusercontent.com/Mahdi0024/ProxyCollector/master/sub/proxies.txt"
     }
   },
@@ -84,6 +84,6 @@
     "SE",
     "TR"
   ],
-  "unique_nodes": 4351,
-  "unresolved_hosts": 190
+  "unique_nodes": 4564,
+  "unresolved_hosts": 193
 }
