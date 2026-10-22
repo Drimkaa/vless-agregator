@@ -1,6 +1,7 @@
-#profile-title: VLESS AZ 22.10 20:11
-#sub-info-text: Обновлено: 22.10.2026 20:11 МСК | Конфигов: 2 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS AZ 23.10 00:36
+#sub-info-text: Обновлено: 23.10.2026 00:36 МСК | Конфигов: 3 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
-vless://d0236924-dd68-4c96-8113-cbea03b917a1@188.64.12.3:443?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%A6%F0%9F%87%BF%20AZ%20%23001
-vless://456ecff9-c221-4915-8aa7-2e5745a30935@az.sparxiecn.com:443?security=reality&encryption=none&pbk=6AW8ehYuPtg84kBaGbAN8dumEH3epgwV2rGMPGKyBxI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.oracle.com&sid=af134fdf0bd9f346#%F0%9F%87%A6%F0%9F%87%BF%20AZ%20%23002
+vless://0bcc520b-c5af-40a3-b1cb-009ea5f36e83@109.61.16.59:40161?security=reality&encryption=mlkem768x25519plus.native.0rtt.ThEP1iQCZ-ttzzCMXmZY060TKDupTP_NeoLCCIzkOko&pbk=MrmpFSGoRo-IGGfwT-7V2Xvm6vEUuit8VffG65JElis&headerType=&fp=chrome&spx=/8557c7896f4aca3&type=tcp&sni=youtubeeducation.com&sid=6c#%F0%9F%87%A6%F0%9F%87%BF%20AZ%20%23001
+vless://d0236924-dd68-4c96-8113-cbea03b917a1@188.64.12.3:443?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%A6%F0%9F%87%BF%20AZ%20%23002
+vless://456ecff9-c221-4915-8aa7-2e5745a30935@az.sparxiecn.com:443?security=reality&encryption=none&pbk=6AW8ehYuPtg84kBaGbAN8dumEH3epgwV2rGMPGKyBxI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.oracle.com&sid=af134fdf0bd9f346#%F0%9F%87%A6%F0%9F%87%BF%20AZ%20%23003
