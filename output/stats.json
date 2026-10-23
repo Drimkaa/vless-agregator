@@ -3,36 +3,36 @@
   "country_counts": {
     "AZ": 2,
     "BY": 2,
-    "DE": 512,
-    "EE": 36,
-    "FI": 139,
+    "DE": 569,
+    "EE": 37,
+    "FI": 171,
     "GE": 3,
-    "KZ": 5,
-    "LT": 6,
-    "LV": 25,
-    "NL": 307,
+    "KZ": 6,
+    "LT": 5,
+    "LV": 32,
+    "NL": 341,
     "NO": 11,
-    "PL": 87,
-    "SE": 67,
-    "TR": 59
+    "PL": 101,
+    "SE": 70,
+    "TR": 77
   },
   "country_mode": "server_address_ipinfo",
   "failed_sources": 2,
   "fetched_sources": 8,
-  "generated_at": "2026-10-23T18:22:38+00:00",
-  "geoip_cached_ips": 2203,
-  "geoip_queried_ips": 36,
-  "parsed_nodes": 10831,
-  "resolved_hosts": 2415,
+  "generated_at": "2026-10-23T23:09:44+00:00",
+  "geoip_cached_ips": 2252,
+  "geoip_queried_ips": 133,
+  "parsed_nodes": 11112,
+  "resolved_hosts": 2573,
   "security_filter": "disabled",
-  "selected_nodes": 1261,
+  "selected_nodes": 1427,
   "sources": {
     "alirewa": {
-      "parsed": 757,
+      "parsed": 759,
       "url": "https://raw.githubusercontent.com/Alirewa/V2ray-Configs/main/config.txt"
     },
     "barry-far": {
-      "parsed": 5324,
+      "parsed": 5562,
       "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/vless.txt"
     },
     "captchaq": {
@@ -44,19 +44,19 @@
       "url": "https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/vless_configs.txt"
     },
     "epodonios": {
-      "parsed": 4020,
+      "parsed": 4021,
       "url": "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Splitted-By-Protocol/vless.txt"
     },
     "igareck": {
-      "parsed": 70,
+      "parsed": 140,
       "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt"
     },
     "igareck-mobile": {
-      "parsed": 79,
+      "parsed": 47,
       "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt"
     },
     "nexus-nodes": {
-      "parsed": 495,
+      "parsed": 497,
       "url": "https://raw.githubusercontent.com/ninjastrikers/Nexus-nodes/main/configs/vless.txt"
     },
     "p-configs": {
@@ -84,6 +84,6 @@
     "SE",
     "TR"
   ],
-  "unique_nodes": 4287,
-  "unresolved_hosts": 194
+  "unique_nodes": 4637,
+  "unresolved_hosts": 200
 }

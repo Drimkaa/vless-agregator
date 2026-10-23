@@ -1,5 +1,5 @@
-#profile-title: VLESS LT 23.10 21:22
-#sub-info-text: Обновлено: 23.10.2026 21:22 МСК | Конфигов: 6 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS LT 24.10 02:09
+#sub-info-text: Обновлено: 24.10.2026 02:09 МСК | Конфигов: 5 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://fdc48be3-a615-41ac-8bd1-ed844c931048@144.31.243.120:8443?encryption=none&fp=chrome&host=edgetunnel-4uw.pages.dev&path=/&security=tls&sni=edgetunnel-4uw.pages.dev&type=ws#%F0%9F%87%B1%F0%9F%87%B9%20LT%20%23001
@@ -7,4 +7,3 @@ vless://fd47216b-4217-4ec1-85b9-98304634a391@5.199.170.105:443?security=reality&
 vless://ee18d188-14cc-417e-beb1-70e4add6d023@84.32.109.20:443?security=reality&encryption=none&pbk=3jySGemfaqPZ2vM66Qtzo5SotO3eoRn1FeGaKp6KBQ4&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=litv.nztvpn.com&sid=0da7e14db353e7d0#%F0%9F%87%B1%F0%9F%87%B9%20LT%20%23003
 vless://3b1fa839-2cb9-4511-9711-08800450aea3@84.32.215.96:443?security=reality&encryption=none&pbk=5pR15ATlWW3tVzfnMN3xoiN56LjIUbhnOMp37ZvTFUc&headerType=&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=app26.betust.net&sid=d44d6d46#%F0%9F%87%B1%F0%9F%87%B9%20LT%20%23004
 vless://ae8e0f7d-b661-41ca-b55d-d8c383adb2f8@88.119.176.24:443?security=reality&encryption=none&pbk=W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=lit9.helper-internet.com&sid=ff776ff77be48b88#%F0%9F%87%B1%F0%9F%87%B9%20LT%20%23005
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@88.216.69.30:8880?path=/&security=none&encryption=none&host=vms.lifetime06.workers.dev&type=ws#%F0%9F%87%B1%F0%9F%87%B9%20LT%20%23006
