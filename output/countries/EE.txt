@@ -1,5 +1,5 @@
-#profile-title: VLESS EE 23.10 03:40
-#sub-info-text: Обновлено: 23.10.2026 03:40 МСК | Конфигов: 39 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS EE 23.10 10:33
+#sub-info-text: Обновлено: 23.10.2026 10:33 МСК | Конфигов: 39 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://495c7195-85b8-498a-bf20-2ea9ce9175b5@114.129.9.132:8443?path=/fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443&security=tls&encryption=none&insecure=0&host=snip.edgeoneai.cc.cd&fp=chrome&type=ws&allowInsecure=0&sni=snip.edgeoneai.cc.cd#%F0%9F%87%AA%F0%9F%87%AA%20EE%20%23001

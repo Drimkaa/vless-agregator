@@ -1,5 +1,5 @@
-#profile-title: VLESS AZ 23.10 03:40
-#sub-info-text: Обновлено: 23.10.2026 03:40 МСК | Конфигов: 4 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS AZ 23.10 10:33
+#sub-info-text: Обновлено: 23.10.2026 10:33 МСК | Конфигов: 4 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://0bcc520b-c5af-40a3-b1cb-009ea5f36e83@109.61.16.59:40161?security=reality&encryption=mlkem768x25519plus.native.0rtt.ThEP1iQCZ-ttzzCMXmZY060TKDupTP_NeoLCCIzkOko&pbk=MrmpFSGoRo-IGGfwT-7V2Xvm6vEUuit8VffG65JElis&headerType=&fp=chrome&spx=/8557c7896f4aca3&type=tcp&sni=youtubeeducation.com&sid=6c#%F0%9F%87%A6%F0%9F%87%BF%20AZ%20%23001
