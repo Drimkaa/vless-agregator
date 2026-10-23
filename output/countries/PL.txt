@@ -1,5 +1,5 @@
-#profile-title: VLESS PL 23.10 00:36
-#sub-info-text: Обновлено: 23.10.2026 00:36 МСК | Конфигов: 93 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS PL 23.10 03:40
+#sub-info-text: Обновлено: 23.10.2026 03:40 МСК | Конфигов: 93 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://8007dda2-aed2-4514-8299-6e3edbdb015b@103.167.234.179:443?security=reality&encryption=none&pbk=trN5x0amt2YuVzF2vZnK294YBAuh_zl5QkZjPyWz-TI&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=al3.magazinnarubeva.ru&sid=8718c58d3d51db59#%F0%9F%87%B5%F0%9F%87%B1%20PL%20%23001
