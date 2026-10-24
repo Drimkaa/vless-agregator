@@ -1,6 +1,5 @@
-#profile-title: VLESS AZ 24.10 02:09
-#sub-info-text: Обновлено: 24.10.2026 02:09 МСК | Конфигов: 2 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS AZ 24.10 07:38
+#sub-info-text: Обновлено: 24.10.2026 07:38 МСК | Конфигов: 1 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://d0236924-dd68-4c96-8113-cbea03b917a1@188.64.12.3:443?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%A6%F0%9F%87%BF%20AZ%20%23001
-vless://456ecff9-c221-4915-8aa7-2e5745a30935@az.sparxiecn.com:443?security=reality&encryption=none&pbk=6AW8ehYuPtg84kBaGbAN8dumEH3epgwV2rGMPGKyBxI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.oracle.com&sid=af134fdf0bd9f346#%F0%9F%87%A6%F0%9F%87%BF%20AZ%20%23002
