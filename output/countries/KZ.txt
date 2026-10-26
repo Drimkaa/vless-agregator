@@ -1,5 +1,5 @@
-#profile-title: VLESS KZ 26.10 03:23
-#sub-info-text: Обновлено: 26.10.2026 03:23 МСК | Конфигов: 5 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS KZ 26.10 10:48
+#sub-info-text: Обновлено: 26.10.2026 10:48 МСК | Конфигов: 5 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://probabblynot-ch@194.76.18.126:2087?alpn=http/1.1&encryption=none&fp=chrome&host=probabblynot.fazelextremeisreal.com&path=/@probabblynot&security=tls&sni=probabblynot.fazelextremeisreal.com&type=ws#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23001
