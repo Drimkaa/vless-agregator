@@ -1,5 +1,11 @@
-#profile-title: VLESS AZ 27.10 04:29
-#sub-info-text: Обновлено: 27.10.2026 04:29 МСК | Конфигов: 1 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS AZ 27.10 10:53
+#sub-info-text: Обновлено: 27.10.2026 10:53 МСК | Конфигов: 7 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://d0236924-dd68-4c96-8113-cbea03b917a1@188.64.12.3:443?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%A6%F0%9F%87%BF%20AZ%20%23001
+vless://f439e4fe-139b-4882-ad8b-a16176d09c88@94.20.141.53:443?security=reality&encryption=none&pbk=EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8&headerType=&type=tcp&sni=eu63.cdn77.icu&sid=1ed136481e0ede74&fp=firefox#%F0%9F%87%A6%F0%9F%87%BF%20AZ%20%23002
+vless://f439e4fe-139b-4882-ad8b-a16176d09c88@94.20.141.53:443?security=reality&encryption=none&pbk=EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8&headerType=&type=tcp&sni=eu63.cdn77.icu&sid=1ed136481e0ede74&fp=ios#%F0%9F%87%A6%F0%9F%87%BF%20AZ%20%23003
+vless://f439e4fe-139b-4882-ad8b-a16176d09c88@94.20.141.53:443?security=reality&encryption=none&pbk=EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8&headerType=&type=tcp&sni=eu63.cdn77.icu&sid=1ed136481e0ede74&fp=chrome#%F0%9F%87%A6%F0%9F%87%BF%20AZ%20%23004
+vless://f439e4fe-139b-4882-ad8b-a16176d09c88@94.20.141.53:443?security=reality&encryption=none&pbk=EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8&headerType=&type=tcp&sni=eu63.cdn77.icu&sid=1ed136481e0ede74&fp=qq#%F0%9F%87%A6%F0%9F%87%BF%20AZ%20%23005
+vless://f439e4fe-139b-4882-ad8b-a16176d09c88@94.20.141.53:443?security=reality&encryption=none&pbk=EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8&headerType=&type=tcp&sni=eu63.cdn77.icu&sid=1ed136481e0ede74&fp=safari#%F0%9F%87%A6%F0%9F%87%BF%20AZ%20%23006
+vless://c12db015-a63c-43e5-a744-6398a90373b5@basalam.horqen.ir:21289?security=&alpn=v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus&encryption=none&headerType=none&type=tcp#%F0%9F%87%A6%F0%9F%87%BF%20AZ%20%23007
