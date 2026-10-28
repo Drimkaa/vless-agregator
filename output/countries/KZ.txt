@@ -1,9 +1,13 @@
-#profile-title: VLESS KZ 28.10 11:34
-#sub-info-text: Обновлено: 28.10.2026 11:34 МСК | Конфигов: 5 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS KZ 28.10 19:38
+#sub-info-text: Обновлено: 28.10.2026 19:38 МСК | Конфигов: 9 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
-vless://b573cefb-7bc7-4a42-b407-b8b534e66773@109.248.170.119:13447?security=reality&encryption=none&pbk=_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=83#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23001
-vless://probabblynot-ch@194.76.18.126:2087?alpn=http/1.1&encryption=none&fp=chrome&host=probabblynot.fazelextremeisreal.com&path=/@probabblynot&security=tls&sni=probabblynot.fazelextremeisreal.com&type=ws#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23002
+vless://probabblynot-ch@194.76.18.126:2087?alpn=http/1.1&encryption=none&fp=chrome&host=probabblynot.fazelextremeisreal.com&path=/@probabblynot&security=tls&sni=probabblynot.fazelextremeisreal.com&type=ws#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23001
+vless://b481bdf0-bf4b-464a-8357-725a0bb5a7d9@194.76.18.143:443?path=%2Fb481bdf0-bf4b-464a-8357-725a0bb5a7d9&security=tls&encryption=none&host=hdfyreplace3.parthianempire.org&type=ws&sni=hdfyreplace3.parthianempire.org#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23002
 vless://e65a5cbc-5663-4f7d-ad7d-800e86ba487d@194.76.18.25:443?security=tls&sni=rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg&allowInsecure=1&fp=chrome&type=ws&path=/ws&host=rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg&encryption=none#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23003
 vless://e65a5cbc-5663-4f7d-ad7d-800e86ba487d@194.76.18.25:443?security=tls&sni=rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg&allowInsecure=1&fp=chrome&type=ws&path=/ws&host=rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg&encryption=none#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23004
-vless://392fcc7e-b995-11f1-a6b7-1b2272a86bd5@89.218.15.90:10002?path=/vpnjantit&security=tls&encryption=none&insecure=0&host=kz1.vpnjantit.com&type=ws&allowInsecure=0&sni=kz1.vpnjantit.com#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23005
+vless://359b9ad3-0009-4655-8872-d0ab566751d3@31.43.179.111:2096?path=/ws?ed=2560&security=tls&encryption=none&insecure=0&host=newgen14.hozheen.ir&fp=chrome&type=ws&allowInsecure=0&sni=d03298146e8e2fe6.hozheen.ir#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23005
+vless://a8b8b21e-1f31-4e4d-a639-efb2de0d577e@45.136.59.28:43000?security=reality&encryption=none&pbk=osqok9aA_NR7WyAxZptD36-_U8BF_9gL8AH84MMzbFs&headerType=none&type=tcp&flow=xtls-rprx-vision&sid=ced96d59#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23006
+vless://846cedee-2a52-4a62-a0b9-11850ead6a8b@46.8.43.125:443?security=reality&encryption=none&pbk=ER-T5En54-sn6IXy7jU8vQVcBbOiWvznnezf3qZ273w&headerType=none&fp=chrome&type=tcp&sni=kz-central.v8x2b.lol#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23007
+vless://846cedee-2a52-4a62-a0b9-11850ead6a8b@46.8.43.125:443?security=reality&encryption=none&pbk=ER-T5En54-sn6IXy7jU8vQVcBbOiWvznnezf3qZ273w&headerType=none&type=tcp&sni=kz-central.v8x2b.lol#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23008
+vless://392fcc7e-b995-11f1-a6b7-1b2272a86bd5@89.218.15.90:10002?path=/vpnjantit&security=tls&encryption=none&insecure=0&host=kz1.vpnjantit.com&type=ws&allowInsecure=0&sni=kz1.vpnjantit.com#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23009
