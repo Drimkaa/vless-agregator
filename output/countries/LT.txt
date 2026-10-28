@@ -1,5 +1,5 @@
-#profile-title: VLESS LT 27.10 23:42
-#sub-info-text: Обновлено: 27.10.2026 23:42 МСК | Конфигов: 10 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS LT 28.10 04:23
+#sub-info-text: Обновлено: 28.10.2026 04:23 МСК | Конфигов: 11 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://fd47216b-4217-4ec1-85b9-98304634a391@5.199.170.105:443?security=reality&encryption=none&pbk=xFUmqmEPEKyv-5ReppEM1oTkc04HQcBUfySH-EwPBlE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=amd.com&sid=6ba85179e30d4fc2#%F0%9F%87%B1%F0%9F%87%B9%20LT%20%23001
@@ -12,3 +12,4 @@ vless://c4edb87e-8544-4fa4-bd1c-b0cda9a34b46@88.216.69.253:443?cs=semi-python&pa
 vless://d342d11e-d224-4463-b982-532309285094@88.216.69.253:443?path=/fp=chrome&security=tls&encryption=none&insecure=0&host=ccc.010304.xyz&type=ws&allowInsecure=0&sni=ccc.010304.xyz#%F0%9F%87%B1%F0%9F%87%B9%20LT%20%23008
 vless://d342d11e-d224-4463-b982-532309285094@88.216.69.253:443?cs=semi-python&path=%2Ffp%3Dchrome&security=tls&encryption=none&fm=tlshello-0-len&insecure=0&host=ccc.010304.xyz&fp=unsafe&type=ws&allowInsecure=0&sni=ccc.010304.xyz#%F0%9F%87%B1%F0%9F%87%B9%20LT%20%23009
 vless://d342d11e-d224-4463-b982-532309285094@88.216.69.253:443?cs=semi-python&path=%2Ffp&security=tls&encryption=none&fm=tlshello-0-len&insecure=0&host=ccc.010304.xyz&fp=unsafe&type=ws&allowInsecure=0&sni=ccc.010304.xyz#%F0%9F%87%B1%F0%9F%87%B9%20LT%20%23010
+vless://ab80fc7f-0a2b-4dd6-8e9c-f497001e7c73@admin.betust.net:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=admin.betust.net&fp=chrome&pbk=zZjrHRzULoXKVccVdPqtrtXLEUPJXwqdE1138vu5x3w&sid=3e137406&type=tcp&headerType=none#%F0%9F%87%B1%F0%9F%87%B9%20LT%20%23011
