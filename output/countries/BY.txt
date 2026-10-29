@@ -1,6 +1,6 @@
-#profile-title: VLESS BY 29.10 16:03
-#sub-info-text: Обновлено: 29.10.2026 16:03 МСК | Конфигов: 2 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS BY 29.10 22:38
+#sub-info-text: Обновлено: 29.10.2026 22:38 МСК | Конфигов: 2 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
-vless://8cef7621-c6f0-486e-b51d-59c30c5b0b25@95.128.71.79:14430?encryption=none&host=95.128.71.79&path=%2Fvless&security=none&type=ws#%F0%9F%87%A7%F0%9F%87%BE%20BY%20%23001
-vless://2a66ad35-93ce-4fd2-831f-bcaa63cdac1e@here-we-go-soocer.keno.su:443?security=reality&encryption=none&pbk=_J2iVrDDgPShx9YYjTxVc_HrL3mrBcP8K-TyyyvHQlU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=here-we-go-soocer.keno.su&sid=a1b2c3d4e5f60718#%F0%9F%87%A7%F0%9F%87%BE%20BY%20%23002
+vless://8cef7621-c6f0-486e-b51d-59c30c5b0b25@95.128.71.79:14430?encryption=none&host=95.128.71.79&path=/vless&security=none&type=ws#%F0%9F%87%A7%F0%9F%87%BE%20BY%20%23001
+vless://8d42d29a-ed53-4684-a9ff-6b33826149de@95.130.84.36:8443?&security=tls&fp=unsafe&sni=aio.eth0.dpdns.org&type=ws&headerType=none&host=aio.eth0.dpdns.org&path=/aioproxybot/94.23.144.99-2053#%F0%9F%87%A7%F0%9F%87%BE%20BY%20%23002
