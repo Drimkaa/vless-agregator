@@ -1,12 +1,12 @@
-#profile-title: VLESS KZ 29.10 01:36
-#sub-info-text: Обновлено: 29.10.2026 01:36 МСК | Конфигов: 9 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS KZ 29.10 08:49
+#sub-info-text: Обновлено: 29.10.2026 08:49 МСК | Конфигов: 9 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
-vless://probabblynot-ch@194.76.18.126:2087?alpn=http/1.1&encryption=none&fp=chrome&host=probabblynot.fazelextremeisreal.com&path=/@probabblynot&security=tls&sni=probabblynot.fazelextremeisreal.com&type=ws#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23001
-vless://b481bdf0-bf4b-464a-8357-725a0bb5a7d9@194.76.18.143:443?path=%2Fb481bdf0-bf4b-464a-8357-725a0bb5a7d9&security=tls&encryption=none&host=hdfyreplace3.parthianempire.org&type=ws&sni=hdfyreplace3.parthianempire.org#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23002
-vless://e65a5cbc-5663-4f7d-ad7d-800e86ba487d@194.76.18.25:443?security=tls&sni=rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg&allowInsecure=1&fp=chrome&type=ws&path=/ws&host=rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg&encryption=none#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23003
+vless://a00d89f6-ab7e-4e30-a5e5-54c701d62c93@178.236.16.98:35728?security=reality&encryption=none&pbk=vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=69a2#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23001
+vless://probabblynot-ch@194.76.18.126:2087?alpn=http/1.1&encryption=none&fp=chrome&host=probabblynot.fazelextremeisreal.com&path=/@probabblynot&security=tls&sni=probabblynot.fazelextremeisreal.com&type=ws#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23002
+vless://b481bdf0-bf4b-464a-8357-725a0bb5a7d9@194.76.18.143:443?path=%2Fb481bdf0-bf4b-464a-8357-725a0bb5a7d9&security=tls&encryption=none&host=hdfyreplace3.parthianempire.org&type=ws&sni=hdfyreplace3.parthianempire.org#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23003
 vless://e65a5cbc-5663-4f7d-ad7d-800e86ba487d@194.76.18.25:443?security=tls&sni=rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg&allowInsecure=1&fp=chrome&type=ws&path=/ws&host=rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg&encryption=none#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23004
-vless://359b9ad3-0009-4655-8872-d0ab566751d3@31.43.179.111:2096?path=/ws?ed=2560&security=tls&encryption=none&insecure=0&host=newgen14.hozheen.ir&fp=chrome&type=ws&allowInsecure=0&sni=d03298146e8e2fe6.hozheen.ir#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23005
+vless://e65a5cbc-5663-4f7d-ad7d-800e86ba487d@194.76.18.25:443?security=tls&sni=rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg&allowInsecure=1&fp=chrome&type=ws&path=/ws&host=rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg&encryption=none#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23005
 vless://a8b8b21e-1f31-4e4d-a639-efb2de0d577e@45.136.59.28:43000?security=reality&encryption=none&pbk=osqok9aA_NR7WyAxZptD36-_U8BF_9gL8AH84MMzbFs&headerType=none&type=tcp&flow=xtls-rprx-vision&sid=ced96d59#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23006
 vless://846cedee-2a52-4a62-a0b9-11850ead6a8b@46.8.43.125:443?security=reality&encryption=none&pbk=ER-T5En54-sn6IXy7jU8vQVcBbOiWvznnezf3qZ273w&headerType=none&fp=chrome&type=tcp&sni=kz-central.v8x2b.lol#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23007
 vless://846cedee-2a52-4a62-a0b9-11850ead6a8b@46.8.43.125:443?security=reality&encryption=none&pbk=ER-T5En54-sn6IXy7jU8vQVcBbOiWvznnezf3qZ273w&headerType=none&type=tcp&sni=kz-central.v8x2b.lol#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23008
