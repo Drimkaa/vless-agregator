@@ -1,5 +1,5 @@
-#profile-title: VLESS SE 30.10 08:50
-#sub-info-text: Обновлено: 30.10.2026 08:50 МСК | Конфигов: 96 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS SE 30.10 15:57
+#sub-info-text: Обновлено: 30.10.2026 15:57 МСК | Конфигов: 96 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://71b91642-93ed-4923-8cab-877e19bfc2d6@103.139.51.21:443?security=reality&encryption=none&pbk=H5CXI4RvEWW0TFPvFrnF1iX-05Y57ZYMMngjmkMfv24&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=auth.figmafound.org&sid=711ad7f475c35e5e#%F0%9F%87%B8%F0%9F%87%AA%20SE%20%23001
