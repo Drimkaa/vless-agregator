@@ -1,9 +1,9 @@
-#profile-title: VLESS LV 01.11 16:26
-#sub-info-text: Обновлено: 01.11.2026 16:26 МСК | Конфигов: 17 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS LV 01.11 21:56
+#sub-info-text: Обновлено: 01.11.2026 21:56 МСК | Конфигов: 17 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
-vless://1ebcb694-875c-4be7-b6a2-d53c8208991b@195.123.208.32:443?security=reality&type=tcp&packetEncoding=xudp&sni=gateway.icloud.com&fp=chrome&flow=xtls-rprx-vision&sid=757b9e1ef18e60f0&pbk=ICrsmE5hqN7IsDIyHPG2WkDUUFK_VEj9yobLv8zuDwk#%F0%9F%87%B1%F0%9F%87%BB%20LV%20%23001
-vless://02fcc1a4-ee90-4970-8bbb-4ffaa8109d24@195.123.213.28:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=NMgy1XgCSXExOg6Tg8xG9lCWttMF6sjdpB41lZy6FWo&security=reality&sid=5c256336e3b673fa&sni=www.cloudflare.com&type=tcp#%F0%9F%87%B1%F0%9F%87%BB%20LV%20%23002
+vless://28e7f9e1-006c-4c38-822d-2d2903477444@109.248.148.140:443?security=reality&encryption=none&pbk=RFZXfsd3WfxOKRcdO4Q7RoElfE8JbMpR6bG3jYLV_Uc&headerType=&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.apple.com#%F0%9F%87%B1%F0%9F%87%BB%20LV%20%23001
+vless://902e7be9-d0a8-42a6-994f-8320916a9d9e@185.236.22.34:443?encryption=none&flow=xtls-rprx-vision&headerType=&pbk=oKG1EhkfIvBM6xLEk7ck51ZbjvUKDR22RNjTJR_7sTU&security=reality&sid=46da9a2868751b85&sni=amber.gaznw.my&type=tcp&fp=chrome#%F0%9F%87%B1%F0%9F%87%BB%20LV%20%23002
 vless://ee18d188-14cc-417e-beb1-70e4add6d023@216.173.71.43:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=lv.nztvpn.com&fp=chrome&pbk=miDhSALrcCvSfc38VjCDYlzNh5M61NMR5IkUli7IN08&sid=0da7e14db353e7d0&type=tcp&headerType=none&host=/?telegram--AZARANV2RAY--AZARANV2RAY--AZARANV2RAY--AZARANV2RAY#%F0%9F%87%B1%F0%9F%87%BB%20LV%20%23003
 vless://ee18d188-14cc-417e-beb1-70e4add6d023@216.173.71.43:443?security=reality&encryption=none&pbk=miDhSALrcCvSfc38VjCDYlzNh5M61NMR5IkUli7IN08&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=lv.nztvpn.com&sid=0da7e14db353e7d0#%F0%9F%87%B1%F0%9F%87%BB%20LV%20%23004
 vless://17acda85-dada-41dd-8add-ad0ad179fc91@31.56.177.95:8445?security=none&encryption=mlkem768x25519plus.native.0rtt.Qstm6A6j4WgPdkX1VSxeIfZM3YrgtWTcWIX3y5edpUc&headerType=none&type=tcp#%F0%9F%87%B1%F0%9F%87%BB%20LV%20%23005
