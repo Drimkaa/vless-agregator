@@ -1,15 +1,12 @@
-#profile-title: VLESS KZ 03.11 09:49
-#sub-info-text: Обновлено: 03.11.2026 09:49 МСК | Конфигов: 11 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS KZ 03.11 19:15
+#sub-info-text: Обновлено: 03.11.2026 19:15 МСК | Конфигов: 8 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
-vless://b573cefb-7bc7-4a42-b407-b8b534e66773@109.248.170.119:13447?security=reality&encryption=none&pbk=_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=83#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23001
-vless://48eb49ce-38b5-4ed1-b6ab-8eaf37cde710@176.12.77.122:443?encryption=none&flow=xtls-rprx-vision&pbk=7y9S8SLZAfdPJBbYorCCTEPXBIr8ux0aLekQTFBqZhY&security=reality&sid=88f0531d113525a2&sni=kznode.easyvpn.dev&type=tcp&fp=chrome#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23002
-vless://48eb49ce-38b5-4ed1-b6ab-8eaf37cde710@176.12.77.122:443?flow=xtls-rprx-vision&pbk=7y9S8SLZAfdPJBbYorCCTEPXBIr8ux0aLekQTFBqZhY&security=reality&sid=88f0531d113525a2&sni=kznode.easyvpn.dev&type=raw&fp=chrome#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23003
-vless://probabblynot-ch@194.76.18.126:2087?alpn=http/1.1&encryption=none&fp=chrome&host=probabblynot.fazelextremeisreal.com&path=/@probabblynot&security=tls&sni=probabblynot.fazelextremeisreal.com&type=ws#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23004
-vless://b481bdf0-bf4b-464a-8357-725a0bb5a7d9@194.76.18.143:443?path=%2Fb481bdf0-bf4b-464a-8357-725a0bb5a7d9&security=tls&encryption=none&host=hdfyreplace3.parthianempire.org&type=ws&sni=hdfyreplace3.parthianempire.org#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23005
-vless://e65a5cbc-5663-4f7d-ad7d-800e86ba487d@194.76.18.25:443?security=tls&sni=rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg&allowInsecure=1&fp=chrome&type=ws&path=/ws&host=rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg&encryption=none#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23006
-vless://e65a5cbc-5663-4f7d-ad7d-800e86ba487d@194.76.18.25:443?security=tls&sni=rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg&allowInsecure=1&fp=chrome&type=ws&path=/ws&host=rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg&encryption=none#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23007
-vless://a8b8b21e-1f31-4e4d-a639-efb2de0d577e@45.136.59.28:43000?security=reality&encryption=none&pbk=osqok9aA_NR7WyAxZptD36-_U8BF_9gL8AH84MMzbFs&headerType=none&type=tcp&flow=xtls-rprx-vision&sid=ced96d59#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23008
-vless://902e7be9-d0a8-42a6-994f-8320916a9d9e@5.180.21.83:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=oKG1EhkfIvBM6xLEk7ck51ZbjvUKDR22RNjTJR_7sTU&sid=46da9a2868751b85&sni=steppe.gaznw.my#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23009
-vless://392fcc7e-b995-11f1-a6b7-1b2272a86bd5@89.218.15.90:10002?path=/vpnjantit&security=tls&encryption=none&insecure=0&host=kz1.vpnjantit.com&type=ws&allowInsecure=0&sni=kz1.vpnjantit.com#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23010
-vless://a6f263ad-2d3e-42c6-9584-ed80a5b1134d@XCDN.DarinaService.IR:8443?encryption=none&security=tls&sni=Iran.irandarina.ir&alpn=h3#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23011
+vless://probabblynot-ch@194.76.18.126:2087?alpn=http/1.1&encryption=none&fp=chrome&host=probabblynot.fazelextremeisreal.com&path=/@probabblynot&security=tls&sni=probabblynot.fazelextremeisreal.com&type=ws#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23001
+vless://b481bdf0-bf4b-464a-8357-725a0bb5a7d9@194.76.18.143:443?path=%2Fb481bdf0-bf4b-464a-8357-725a0bb5a7d9&security=tls&encryption=none&host=hdfyreplace3.parthianempire.org&type=ws&sni=hdfyreplace3.parthianempire.org#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23002
+vless://e65a5cbc-5663-4f7d-ad7d-800e86ba487d@194.76.18.25:443?security=tls&sni=rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg&allowInsecure=1&fp=chrome&type=ws&path=/ws&host=rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg&encryption=none#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23003
+vless://e65a5cbc-5663-4f7d-ad7d-800e86ba487d@194.76.18.25:443?security=tls&sni=rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg&allowInsecure=1&fp=chrome&type=ws&path=/ws&host=rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg&encryption=none#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23004
+vless://a8b8b21e-1f31-4e4d-a639-efb2de0d577e@45.136.59.28:43000?security=reality&encryption=none&pbk=osqok9aA_NR7WyAxZptD36-_U8BF_9gL8AH84MMzbFs&headerType=none&type=tcp&flow=xtls-rprx-vision&sid=ced96d59#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23005
+vless://f190853d-4cc5-4a67-acfb-5e0b3b750537@46.8.43.125:443?security=reality&encryption=none&pbk=ER-T5En54-sn6IXy7jU8vQVcBbOiWvznnezf3qZ273w&headerType=none&fp=chrome&type=tcp&sni=kz-central.v8x2b.lol#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23006
+vless://392fcc7e-b995-11f1-a6b7-1b2272a86bd5@89.218.15.90:10002?path=/vpnjantit&security=tls&encryption=none&insecure=0&host=kz1.vpnjantit.com&type=ws&allowInsecure=0&sni=kz1.vpnjantit.com#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23007
+vless://a6f263ad-2d3e-42c6-9584-ed80a5b1134d@XCDN.DarinaService.IR:8443?encryption=none&security=tls&sni=Iran.irandarina.ir&alpn=h3#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23008
