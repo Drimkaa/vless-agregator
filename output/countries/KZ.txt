@@ -1,5 +1,5 @@
-#profile-title: VLESS KZ 04.11 15:09
-#sub-info-text: Обновлено: 04.11.2026 15:09 МСК | Конфигов: 7 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS KZ 04.11 22:45
+#sub-info-text: Обновлено: 04.11.2026 22:45 МСК | Конфигов: 6 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://probabblynot-ch@194.76.18.126:2087?alpn=http/1.1&encryption=none&fp=chrome&host=probabblynot.fazelextremeisreal.com&path=/@probabblynot&security=tls&sni=probabblynot.fazelextremeisreal.com&type=ws#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23001
@@ -8,4 +8,3 @@ vless://e65a5cbc-5663-4f7d-ad7d-800e86ba487d@194.76.18.25:443?security=tls&sni=r
 vless://e65a5cbc-5663-4f7d-ad7d-800e86ba487d@194.76.18.25:443?security=tls&sni=rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg&allowInsecure=1&fp=chrome&type=ws&path=/ws&host=rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg&encryption=none#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23004
 vless://a8b8b21e-1f31-4e4d-a639-efb2de0d577e@45.136.59.28:43000?security=reality&encryption=none&pbk=osqok9aA_NR7WyAxZptD36-_U8BF_9gL8AH84MMzbFs&headerType=none&type=tcp&flow=xtls-rprx-vision&sid=ced96d59#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23005
 vless://392fcc7e-b995-11f1-a6b7-1b2272a86bd5@89.218.15.90:10002?path=/vpnjantit&security=tls&encryption=none&insecure=0&host=kz1.vpnjantit.com&type=ws&allowInsecure=0&sni=kz1.vpnjantit.com#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23006
-vless://a6f263ad-2d3e-42c6-9584-ed80a5b1134d@XCDN.DarinaService.IR:8443?encryption=none&security=tls&sni=Iran.irandarina.ir&alpn=h3#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23007
