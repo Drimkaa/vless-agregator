@@ -2,36 +2,36 @@
   "availability_checked": false,
   "country_counts": {
     "AZ": 1,
-    "BY": 5,
-    "DE": 520,
+    "BY": 4,
+    "DE": 526,
     "EE": 40,
-    "FI": 120,
-    "KZ": 17,
-    "LT": 13,
-    "LV": 23,
-    "NL": 374,
-    "NO": 10,
-    "PL": 83,
-    "SE": 118,
+    "FI": 121,
+    "KZ": 14,
+    "LT": 9,
+    "LV": 20,
+    "NL": 375,
+    "NO": 11,
+    "PL": 91,
+    "SE": 129,
     "TR": 61
   },
   "country_mode": "server_address_ipinfo",
   "failed_sources": 3,
   "fetched_sources": 7,
-  "generated_at": "2026-11-09T20:44:47+00:00",
-  "geoip_cached_ips": 2222,
-  "geoip_queried_ips": 104,
-  "parsed_nodes": 7563,
-  "resolved_hosts": 2491,
+  "generated_at": "2026-11-10T04:07:41+00:00",
+  "geoip_cached_ips": 2320,
+  "geoip_queried_ips": 222,
+  "parsed_nodes": 8585,
+  "resolved_hosts": 2746,
   "security_filter": "disabled",
-  "selected_nodes": 1385,
+  "selected_nodes": 1402,
   "sources": {
     "alirewa": {
-      "parsed": 832,
+      "parsed": 823,
       "url": "https://raw.githubusercontent.com/Alirewa/V2ray-Configs/main/config.txt"
     },
     "barry-far": {
-      "parsed": 5858,
+      "parsed": 6092,
       "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/vless.txt"
     },
     "captchaq": {
@@ -47,11 +47,11 @@
       "url": "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Splitted-By-Protocol/vless.txt"
     },
     "igareck": {
-      "parsed": 183,
+      "parsed": 937,
       "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt"
     },
     "igareck-mobile": {
-      "parsed": 106,
+      "parsed": 144,
       "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt"
     },
     "nexus-nodes": {
@@ -63,7 +63,7 @@
       "url": "https://raw.githubusercontent.com/VovaplusEXP/p-configs/main/Splitted-By-Protocol-Secure/vless.txt"
     },
     "proxycollector": {
-      "parsed": 5,
+      "parsed": 10,
       "url": "https://raw.githubusercontent.com/Mahdi0024/ProxyCollector/master/sub/proxies.txt"
     }
   },
@@ -83,6 +83,6 @@
     "SE",
     "TR"
   ],
-  "unique_nodes": 4602,
-  "unresolved_hosts": 214
+  "unique_nodes": 5379,
+  "unresolved_hosts": 204
 }
