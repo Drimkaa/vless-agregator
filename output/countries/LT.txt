@@ -1,10 +1,10 @@
-#profile-title: VLESS LT 10.11 15:39
-#sub-info-text: Обновлено: 10.11.2026 15:39 МСК | Конфигов: 15 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS LT 10.11 23:49
+#sub-info-text: Обновлено: 10.11.2026 23:49 МСК | Конфигов: 15 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://53555197-bf0a-49e6-bea1-211fcfc1d962@45.81.252.143:2053?alpn=h2&encryption=none&security=tls&sni=germany3.banovano.space&type=grpc#%F0%9F%87%B1%F0%9F%87%B9%20LT%20%23001
 vless://fd47216b-4217-4ec1-85b9-98304634a391@5.199.170.105:443?security=reality&encryption=none&pbk=xFUmqmEPEKyv-5ReppEM1oTkc04HQcBUfySH-EwPBlE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=amd.com&sid=6ba85179e30d4fc2#%F0%9F%87%B1%F0%9F%87%B9%20LT%20%23002
-vless://3f25b15b-1777-4c08-9ade-60336ac92a82@84.32.209.103:443?encryption=none&fp=chrome&mode=multi&security=tls&serviceName=grpc&sni=edge-lt.lindenpixel.com&type=grpc#%F0%9F%87%B1%F0%9F%87%B9%20LT%20%23003
+vless://3f25b15b-1777-4c08-9ade-60336ac92a82@84.32.209.103:443?sni=edge-lt.lindenpixel.com&type=grpc&serviceName=grpc&fp=chrome&security=tls#%F0%9F%87%B1%F0%9F%87%B9%20LT%20%23003
 vless://ae8e0f7d-b661-41ca-b55d-d8c383adb2f8@88.119.176.24:443?security=reality&encryption=none&pbk=W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=lit9.helper-internet.com&sid=ff776ff77be48b88#%F0%9F%87%B1%F0%9F%87%B9%20LT%20%23004
 vless://5504eaa8-1395-402f-8e0e-75ecd762e627@88.216.69.253:443?cs=semi-python&path=%2Ffdtiouasopeiyre0r95y8&security=tls&alpn=http%2F1.1&encryption=none&fm=tlshello-0-len&insecure=0&host=server8.9966338.xyz&fp=unsafe&type=ws&allowInsecure=0&sni=server8.9966338.xyz#%F0%9F%87%B1%F0%9F%87%B9%20LT%20%23005
 vless://5504eaa8-1395-402f-8e0e-75ecd762e627@88.216.69.253:443?cs=semi-python&path=%2Ffiughoieuhti834t90&security=tls&alpn=http%2F1.1&encryption=none&fm=tlshello-0-len&insecure=0&host=server6.9966338.xyz&fp=unsafe&type=ws&allowInsecure=0&sni=server6.9966338.xyz#%F0%9F%87%B1%F0%9F%87%B9%20LT%20%23006
