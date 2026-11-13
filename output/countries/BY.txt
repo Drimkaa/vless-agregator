@@ -1,6 +1,8 @@
-#profile-title: VLESS BY 13.11 20:45
-#sub-info-text: Обновлено: 13.11.2026 20:45 МСК | Конфигов: 2 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS BY 14.11 02:35
+#sub-info-text: Обновлено: 14.11.2026 02:35 МСК | Конфигов: 4 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://1af36694-b548-4b18-89a0-bc076eab4ed7@178.172.227.124:10444?security=reality&encryption=none&pbk=0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=8debcf36f1cc69ff#%F0%9F%87%A7%F0%9F%87%BE%20BY%20%23001
-vless://1af36694-b548-4b18-89a0-bc076eab4ed7@178.172.227.124:14430?path=/vless&security=&encryption=none&host=178.172.227.124&type=ws#%F0%9F%87%A7%F0%9F%87%BE%20BY%20%23002
+vless://b6e5dc56-836f-48c1-9163-b0b0b43b647d@178.172.227.228:14430?security=none&type=ws&path=/vless&host=178.172.227.228&packetEncoding=xudp#%F0%9F%87%A7%F0%9F%87%BE%20BY%20%23002
+vless://cdf4bc13-31e6-4bff-962c-05fe9151c593@78.140.253.25:445?encryption=none&flow=xtls-rprx-vision&pbk=Vi1Rr8Qf0-OeeXyHCt8Hsz1yRzVRkniPweoKl3Y6ohY&security=reality&sid=15aa18f121da1f81&sni=bel.vrsvpn.com&type=tcp&fp=chrome#%F0%9F%87%A7%F0%9F%87%BE%20BY%20%23003
+vless://8cef7621-c6f0-486e-b51d-59c30c5b0b25@95.128.71.79:14430?encryption=none&host=95.128.71.79&path=/vless&security=none&type=ws#%F0%9F%87%A7%F0%9F%87%BE%20BY%20%23004

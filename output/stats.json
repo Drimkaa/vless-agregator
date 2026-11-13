@@ -2,37 +2,37 @@
   "availability_checked": false,
   "country_counts": {
     "AZ": 2,
-    "BY": 2,
-    "DE": 521,
-    "EE": 48,
+    "BY": 4,
+    "DE": 543,
+    "EE": 46,
     "FI": 134,
     "GE": 2,
-    "KZ": 8,
-    "LT": 14,
-    "LV": 18,
-    "NL": 382,
+    "KZ": 9,
+    "LT": 18,
+    "LV": 20,
+    "NL": 390,
     "NO": 8,
-    "PL": 78,
-    "SE": 117,
-    "TR": 64
+    "PL": 74,
+    "SE": 115,
+    "TR": 61
   },
   "country_mode": "server_address_ipinfo",
   "failed_sources": 3,
   "fetched_sources": 7,
-  "generated_at": "2026-11-13T17:45:09+00:00",
-  "geoip_cached_ips": 2204,
+  "generated_at": "2026-11-13T23:35:20+00:00",
+  "geoip_cached_ips": 2273,
   "geoip_queried_ips": 91,
-  "parsed_nodes": 7928,
-  "resolved_hosts": 2457,
+  "parsed_nodes": 8293,
+  "resolved_hosts": 2541,
   "security_filter": "disabled",
-  "selected_nodes": 1398,
+  "selected_nodes": 1426,
   "sources": {
     "alirewa": {
-      "parsed": 822,
+      "parsed": 831,
       "url": "https://raw.githubusercontent.com/Alirewa/V2ray-Configs/main/config.txt"
     },
     "barry-far": {
-      "parsed": 6169,
+      "parsed": 6398,
       "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/vless.txt"
     },
     "captchaq": {
@@ -48,11 +48,11 @@
       "url": "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Splitted-By-Protocol/vless.txt"
     },
     "igareck": {
-      "parsed": 210,
+      "parsed": 325,
       "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt"
     },
     "igareck-mobile": {
-      "parsed": 146,
+      "parsed": 148,
       "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt"
     },
     "nexus-nodes": {
@@ -64,7 +64,7 @@
       "url": "https://raw.githubusercontent.com/VovaplusEXP/p-configs/main/Splitted-By-Protocol-Secure/vless.txt"
     },
     "proxycollector": {
-      "parsed": 0,
+      "parsed": 10,
       "url": "https://raw.githubusercontent.com/Mahdi0024/ProxyCollector/master/sub/proxies.txt"
     }
   },
@@ -84,6 +84,6 @@
     "SE",
     "TR"
   ],
-  "unique_nodes": 4652,
-  "unresolved_hosts": 216
+  "unique_nodes": 4843,
+  "unresolved_hosts": 215
 }
