@@ -1,5 +1,5 @@
-#profile-title: VLESS FI 14.11 02:35
-#sub-info-text: Обновлено: 14.11.2026 02:35 МСК | Конфигов: 134 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS FI 14.11 09:24
+#sub-info-text: Обновлено: 14.11.2026 09:24 МСК | Конфигов: 133 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://2bb8b13c-b3f0-2552-da05-d0929bfb36db@104.245.240.4:443?mode=auto&path=/&security=reality&encryption=none&pbk=skXBkyphBIt0TWVM0R5U3U-8UG0cuW00ONkaQpJ-OxU&fp=chrome&type=xhttp&sni=download.nvidia.com#%F0%9F%87%AB%F0%9F%87%AE%20FI%20%23001
@@ -135,4 +135,3 @@ vless://320536e8-b0d3-4afa-a5ec-de93356ce562@static.117.242.109.65.clients.your-
 vless://0eea6d8d-3c8d-4a38-bfc1-bfc8274f559e@static.44.128.217.95.clients.your-server.de:8443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=static.216.7.245.188.clients.your-server.de&fp=chrome&alpn=h2,http/1.1&type=tcp&headerType=none#%F0%9F%87%AB%F0%9F%87%AE%20FI%20%23131
 vless://b62e3646-b84d-443c-9c94-718b646502e0@webdisk.jaggyslawa.org:443?security=reality&encryption=none&pbk=zfsjt2A8ur0qHWIuCG7F9W4wZN3VTuL6fkTljC-9R0s&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.foxsports.com&sid=dda5f542d835#%F0%9F%87%AB%F0%9F%87%AE%20FI%20%23132
 vless://91a32c70-7a90-42ca-94d5-cd44b98cd262@www.e.mobilenarges.ir:7333?security=reality&alpn=http/1.1&encryption=none&pbk=isO0qF2Xg6UI1GKARgfg9UHZSrrUBcOazkz04mTl-kE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=amp-api-edge.apps.apple.com&sid=0f62cf6250eb31c0#%F0%9F%87%AB%F0%9F%87%AE%20FI%20%23133
-vless://f4e1ae51-3b3d-48b5-ae26-dd71bd4af38a@www.tgju.org:443?mode=stream-up&path=/&security=tls&alpn=h3,h2&encryption=none&insecure=0&host=APP-FI-2.85858569.XYZ&fp=chrome&type=xhttp&allowInsecure=0&sni=1Z6i1nhm.85858569.Xyz#%F0%9F%87%AB%F0%9F%87%AE%20FI%20%23134
