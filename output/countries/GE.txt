@@ -1,5 +1,5 @@
-#profile-title: VLESS GE 14.11 09:24
-#sub-info-text: Обновлено: 14.11.2026 09:24 МСК | Конфигов: 2 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS GE 14.11 18:05
+#sub-info-text: Обновлено: 14.11.2026 18:05 МСК | Конфигов: 2 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://f8cb3c89-32af-4255-bebc-d90aad175069@206.53.48.69:443?security=reality&sni=gea.kosmosapp.net&fp=chrome&pbk=pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ&sid=27350908de933e09&type=grpc&serviceName=neurex#%F0%9F%87%AC%F0%9F%87%AA%20GE%20%23001
