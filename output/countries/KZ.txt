@@ -1,5 +1,5 @@
-#profile-title: VLESS KZ 16.11 09:31
-#sub-info-text: Обновлено: 16.11.2026 09:31 МСК | Конфигов: 5 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS KZ 16.11 21:33
+#sub-info-text: Обновлено: 16.11.2026 21:33 МСК | Конфигов: 5 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://6fdfdb73-51b0-4a14-89a5-c9355a0e0397@178.236.17.86:443?security=reality&encryption=none&pbk=vCxfuNNmogA1DlPkjvmKb7_hSgXqe4MboPfi2s1JZG0&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=google.com&sid=b318242471ba4f5b#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23001
