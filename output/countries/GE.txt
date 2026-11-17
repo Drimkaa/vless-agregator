@@ -1,0 +1,5 @@
+#profile-title: VLESS GE 17.11 05:56
+#sub-info-text: Обновлено: 17.11.2026 05:56 МСК | Конфигов: 1 | Страна по IP-адресу; доступность не проверялась
+#profile-update-interval: 2
+#subscriptions-sort-type: without
+vless://8197b9b9-8945-460f-99c9-325ef8a8a7c3@194.135.119.135:443?flow=xtls-rprx-vision&security=reality&encryption=none&sni=ge1.gofizzin.com&pbk=fVo5hYUD3VkxEetcXSMVWp7hjvz4YrKLNHDhGhn-d3M&sid=0640a12b&type=tcp&path=%2f#%F0%9F%87%AC%F0%9F%87%AA%20GE%20%23001
