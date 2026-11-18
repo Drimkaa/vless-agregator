@@ -1,8 +1,8 @@
-#profile-title: VLESS GE 18.11 10:29
-#sub-info-text: Обновлено: 18.11.2026 10:29 МСК | Конфигов: 4 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS GE 18.11 20:16
+#sub-info-text: Обновлено: 18.11.2026 20:16 МСК | Конфигов: 4 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://8197b9b9-8945-460f-99c9-325ef8a8a7c3@194.135.119.135:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=fVo5hYUD3VkxEetcXSMVWp7hjvz4YrKLNHDhGhn-d3M&security=reality&sid=0640a12b&sni=ge1.gofizzin.com&type=tcp#%F0%9F%87%AC%F0%9F%87%AA%20GE%20%23001
 vless://8197b9b9-8945-460f-99c9-325ef8a8a7c3@194.135.119.135:443?security=reality&encryption=none&pbk=fVo5hYUD3VkxEetcXSMVWp7hjvz4YrKLNHDhGhn-d3M&host=ge1.gofizzin.com/?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ge1.gofizzin.com&sid=0640a12b#%F0%9F%87%AC%F0%9F%87%AA%20GE%20%23002
-vless://abd5a6cc-2e21-48bc-b7d7-3e6e73354514@89.125.175.54:8443?security=reality&encryption=none&pbk=FdZlh9FC4ay9OGnKG6K_iNqhz1I3tWDfNZhxrDYuQl8&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=uk-room05.filesnap.tech&sid=7da3ba09a037e956#%F0%9F%87%AC%F0%9F%87%AA%20GE%20%23003
-vless://abd5a6cc-2e21-48bc-b7d7-3e6e73354514@89.125.175.54:8443?security=reality&encryption=none&pbk=FdZlh9FC4ay9OGnKG6K_iNqhz1I3tWDfNZhxrDYuQl8&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=uk-room05.filesnap.tech&sid=7da3ba09a037e956#%F0%9F%87%AC%F0%9F%87%AA%20GE%20%23004
+vless://33d9545a-014c-4a16-bfc8-56510a639a04@89.125.175.107:8443?security=reality&encryption=none&pbk=48j01Jsa4o8zfmCGEFoVjn-YeALM80-DSG_-nAZUBDM&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=uk-room07.filesnap.tech&sid=dbef98744832b751#%F0%9F%87%AC%F0%9F%87%AA%20GE%20%23003
+vless://abd5a6cc-2e21-48bc-b7d7-3e6e73354514@89.125.175.54:8443?security=reality&encryption=none&pbk=FdZlh9FC4ay9OGnKG6K_iNqhz1I3tWDfNZhxrDYuQl8&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=uk-room05.filesnap.tech&sid=7da3ba09a037e956#%F0%9F%87%AC%F0%9F%87%AA%20GE%20%23004
