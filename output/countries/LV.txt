@@ -1,5 +1,5 @@
-#profile-title: VLESS LV 18.11 20:16
-#sub-info-text: Обновлено: 18.11.2026 20:16 МСК | Конфигов: 21 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS LV 19.11 03:23
+#sub-info-text: Обновлено: 19.11.2026 03:23 МСК | Конфигов: 21 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://5234b2b7-5e07-422c-8159-d62a676c00c6@138.124.180.137:443?flow=xtls-rprx-vision&fp=chrome&pbk=GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c&security=reality&sid=33acba1b&sni=www.apple.com&type=tcp#%F0%9F%87%B1%F0%9F%87%BB%20LV%20%23001
