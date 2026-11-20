@@ -1,5 +1,5 @@
-#profile-title: VLESS GE 20.11 06:17
-#sub-info-text: Обновлено: 20.11.2026 06:17 МСК | Конфигов: 3 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS GE 20.11 15:54
+#sub-info-text: Обновлено: 20.11.2026 15:54 МСК | Конфигов: 3 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://8197b9b9-8945-460f-99c9-325ef8a8a7c3@194.135.119.135:443?security=reality&encryption=none&pbk=fVo5hYUD3VkxEetcXSMVWp7hjvz4YrKLNHDhGhn-d3M&host=ge1.gofizzin.com/?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ge1.gofizzin.com&sid=0640a12b#%F0%9F%87%AC%F0%9F%87%AA%20GE%20%23001
