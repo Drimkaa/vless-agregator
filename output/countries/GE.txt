@@ -1,5 +1,5 @@
-#profile-title: VLESS GE 21.11 15:40
-#sub-info-text: Обновлено: 21.11.2026 15:40 МСК | Конфигов: 1 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS GE 21.11 23:31
+#sub-info-text: Обновлено: 21.11.2026 23:31 МСК | Конфигов: 1 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://abd5a6cc-2e21-48bc-b7d7-3e6e73354514@89.125.175.54:8443?security=reality&encryption=none&pbk=FdZlh9FC4ay9OGnKG6K_iNqhz1I3tWDfNZhxrDYuQl8&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=uk-room05.filesnap.tech&sid=7da3ba09a037e956#%F0%9F%87%AC%F0%9F%87%AA%20GE%20%23001
