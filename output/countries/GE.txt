@@ -1,6 +1,0 @@
-#profile-title: VLESS GE 22.11 05:14
-#sub-info-text: Обновлено: 22.11.2026 05:14 МСК | Конфигов: 2 | Страна по IP-адресу; доступность не проверялась
-#profile-update-interval: 2
-#subscriptions-sort-type: without
-vless://5d7b401c-78fa-4254-872e-6d42bf7e75ec@194.135.119.82:2053?type=ws&security=tls&fp=firefox&sni=vp4.1145678.xyz&host=vp4.1145678.xyz#%F0%9F%87%AC%F0%9F%87%AA%20GE%20%23001
-vless://abd5a6cc-2e21-48bc-b7d7-3e6e73354514@89.125.175.54:8443?security=reality&encryption=none&pbk=FdZlh9FC4ay9OGnKG6K_iNqhz1I3tWDfNZhxrDYuQl8&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=uk-room05.filesnap.tech&sid=7da3ba09a037e956#%F0%9F%87%AC%F0%9F%87%AA%20GE%20%23002

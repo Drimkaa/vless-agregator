@@ -2,37 +2,36 @@
   "availability_checked": false,
   "country_counts": {
     "AZ": 1,
-    "BY": 3,
-    "DE": 593,
-    "EE": 48,
-    "FI": 170,
-    "GE": 2,
-    "KZ": 15,
-    "LT": 12,
-    "LV": 18,
+    "BY": 4,
+    "DE": 600,
+    "EE": 57,
+    "FI": 187,
+    "KZ": 13,
+    "LT": 64,
+    "LV": 22,
     "NL": 392,
-    "NO": 10,
-    "PL": 88,
-    "SE": 140,
+    "NO": 9,
+    "PL": 92,
+    "SE": 130,
     "TR": 81
   },
   "country_mode": "server_address_ipinfo",
   "failed_sources": 3,
   "fetched_sources": 7,
-  "generated_at": "2026-11-22T02:14:27+00:00",
-  "geoip_cached_ips": 2648,
-  "geoip_queried_ips": 233,
-  "parsed_nodes": 8889,
-  "resolved_hosts": 3075,
+  "generated_at": "2026-11-22T09:51:17+00:00",
+  "geoip_cached_ips": 2409,
+  "geoip_queried_ips": 193,
+  "parsed_nodes": 7855,
+  "resolved_hosts": 2763,
   "security_filter": "disabled",
-  "selected_nodes": 1573,
+  "selected_nodes": 1652,
   "sources": {
     "alirewa": {
-      "parsed": 886,
+      "parsed": 896,
       "url": "https://raw.githubusercontent.com/Alirewa/V2ray-Configs/main/config.txt"
     },
     "barry-far": {
-      "parsed": 5683,
+      "parsed": 5902,
       "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/vless.txt"
     },
     "captchaq": {
@@ -48,15 +47,15 @@
       "url": "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Splitted-By-Protocol/vless.txt"
     },
     "igareck": {
-      "parsed": 1595,
+      "parsed": 367,
       "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt"
     },
     "igareck-mobile": {
-      "parsed": 143,
+      "parsed": 110,
       "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt"
     },
     "nexus-nodes": {
-      "parsed": 497,
+      "parsed": 495,
       "url": "https://raw.githubusercontent.com/ninjastrikers/Nexus-nodes/main/configs/vless.txt"
     },
     "p-configs": {
@@ -84,6 +83,6 @@
     "SE",
     "TR"
   ],
-  "unique_nodes": 6027,
-  "unresolved_hosts": 233
+  "unique_nodes": 5133,
+  "unresolved_hosts": 240
 }
