@@ -1,16 +1,17 @@
-#profile-title: VLESS KZ 23.11 10:40
-#sub-info-text: Обновлено: 23.11.2026 10:40 МСК | Конфигов: 12 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS KZ 23.11 23:15
+#sub-info-text: Обновлено: 23.11.2026 23:15 МСК | Конфигов: 13 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://b573cefb-7bc7-4a42-b407-b8b534e66773@109.248.170.119:13447?security=reality&encryption=none&pbk=_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=83#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23001
 vless://probabblynot-ch@194.76.18.126:2087?alpn=http/1.1&encryption=none&fp=chrome&host=probabblynot.fazelextremeisreal.com&path=/@probabblynot&security=tls&sni=probabblynot.fazelextremeisreal.com&type=ws#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23002
 vless://b481bdf0-bf4b-464a-8357-725a0bb5a7d9@194.76.18.143:443?path=%2Fb481bdf0-bf4b-464a-8357-725a0bb5a7d9&security=tls&encryption=none&host=hdfyreplace3.parthianempire.org&type=ws&sni=hdfyreplace3.parthianempire.org#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23003
 vless://5361a986-91b9-4756-a78c-103261128d83@194.76.18.220:2082?security=none&type=httpupgrade&host=cloudmehranmmdv2ray.v2rayng6.6.6.6.ir.Com.Site.xn--fhq0la447aac5504dea701axr1g.usa1.highlimittraffic.TOP.&path=%2Fd3d3LmlyYW5ob3N0LmNvbQ%3D%3D%3Fed%3D2082#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23004
-vless://4a4c4a4d-36f4-4f84-b86f-0aa2489c6acf@194.76.18.253:2052?security=none&type=httpupgrade&host=3203420354.torob.COM.TR.&path=%2Fd3d3LmlyYW5ob5N0LmNvbQ%3D%3D%3Fed%3D2082#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23005
-vless://d0f9437f-3c49-45c6-976b-ebea24158b39@194.76.18.46:2082?security=none&type=httpupgrade&host=finhztco.nipytee.info&path=%2F#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23006
-vless://70ef0e6e-0492-4132-a226-1689aff3e3eb@194.76.18.46:8080?security=none&type=httpupgrade&host=mahil1.hal-ma.info&path=%2F%3Fed%3D2087#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23007
-vless://ebfe9aa7-990f-4d30-9105-2c6b25817194@213.155.23.70:17789?security=reality&encryption=none&pbk=uXwlj6V8_F5RLwqw8C25GIsNP99AGv_Vvb_XmRuo1UU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=splitter.wb.ru&sid=487cff0425b4e006#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23008
-vless://2424febb-43cb-488d-bdd1-401e923c8e48@3h-kazakhstan1.09vpn.com:8443?security=tls&type=ws&path=/vless/&packetEncoding=xudp&sni=3h-kazakhstan1.09vpn.com&fp=chrome#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23009
-vless://7e8eea89-16dd-4a6d-ad9b-192e23c59ffb@85.202.192.131:36746?security=reality&encryption=none&pbk=a7pyyCqFCfWKtsr-Umm5g_Ii5XzhFznIrOtg_U3V2RI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=splitter.wb.ru&sid=f1eb436223e1a36a#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23010
-vless://a30903dc-1bf0-4be5-8b1b-603a3a56211c@91.217.10.237:443?security=reality&encryption=none&pbk=drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ&headerType=none&fp=chrome&type=tcp&sni=api-ns-mgr.galioncc.com&sid=868419504747f6de#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23011
-vless://0c6003a2-369d-4eca-95e6-85eb58dd95f5@kz.monkeyisland.xyz:443?type=tcp&security=reality&encryption=none&pbk=2AKBmK0PMf2zUMhRo1Ad-WNf_XoRk3AN-SGo6ZdhxA4&fp=chrome&sni=kz.monkeyisland.xyz&sid=2ce837f65ba41351&flow=xtls-rprx-vision#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23012
+vless://d0f9437f-3c49-45c6-976b-ebea24158b39@194.76.18.237:2082?security=none&type=httpupgrade&host=finhztco.nipytee.info&path=%2F#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23005
+vless://4a4c4a4d-36f4-4f84-b86f-0aa2489c6acf@194.76.18.253:2052?security=none&type=httpupgrade&host=3203420354.torob.COM.TR.&path=%2Fd3d3LmlyYW5ob5N0LmNvbQ%3D%3D%3Fed%3D2082#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23006
+vless://d0f9437f-3c49-45c6-976b-ebea24158b39@194.76.18.46:2082?security=none&type=httpupgrade&host=finhztco.nipytee.info&path=%2F#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23007
+vless://70ef0e6e-0492-4132-a226-1689aff3e3eb@194.76.18.46:8080?security=none&type=httpupgrade&host=mahil1.hal-ma.info&path=%2F%3Fed%3D2087#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23008
+vless://ebfe9aa7-990f-4d30-9105-2c6b25817194@213.155.23.70:17789?security=reality&encryption=none&pbk=uXwlj6V8_F5RLwqw8C25GIsNP99AGv_Vvb_XmRuo1UU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=splitter.wb.ru&sid=487cff0425b4e006#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23009
+vless://2424febb-43cb-488d-bdd1-401e923c8e48@3h-kazakhstan1.09vpn.com:8443?security=tls&type=ws&path=/vless/&packetEncoding=xudp&sni=3h-kazakhstan1.09vpn.com&fp=chrome#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23010
+vless://7e8eea89-16dd-4a6d-ad9b-192e23c59ffb@85.202.192.131:36746?security=reality&encryption=none&pbk=a7pyyCqFCfWKtsr-Umm5g_Ii5XzhFznIrOtg_U3V2RI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=splitter.wb.ru&sid=f1eb436223e1a36a#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23011
+vless://a30903dc-1bf0-4be5-8b1b-603a3a56211c@91.217.10.237:443?security=reality&encryption=none&pbk=drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ&headerType=none&fp=chrome&type=tcp&sni=api-ns-mgr.galioncc.com&sid=868419504747f6de#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23012
+vless://0c6003a2-369d-4eca-95e6-85eb58dd95f5@kz.monkeyisland.xyz:443?type=tcp&security=reality&encryption=none&pbk=2AKBmK0PMf2zUMhRo1Ad-WNf_XoRk3AN-SGo6ZdhxA4&fp=chrome&sni=kz.monkeyisland.xyz&sid=2ce837f65ba41351&flow=xtls-rprx-vision#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23013
