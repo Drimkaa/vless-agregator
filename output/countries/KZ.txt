@@ -1,5 +1,5 @@
-#profile-title: VLESS KZ 27.11 16:57
-#sub-info-text: Обновлено: 27.11.2026 16:57 МСК | Конфигов: 13 | Страна по IP-адресу; доступность не проверялась
+#profile-title: VLESS KZ 28.11 01:43
+#sub-info-text: Обновлено: 28.11.2026 01:43 МСК | Конфигов: 13 | Страна по IP-адресу; доступность не проверялась
 #profile-update-interval: 2
 #subscriptions-sort-type: without
 vless://b573cefb-7bc7-4a42-b407-b8b534e66773@109.248.170.119:13447?security=reality&type=tcp&packetEncoding=xudp&sni=yahoo.com&fp=chrome&sid=83&pbk=_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23001
@@ -7,7 +7,7 @@ vless://probabblynot-ch@194.76.18.126:2087?alpn=http/1.1&encryption=none&fp=chro
 vless://b481bdf0-bf4b-464a-8357-725a0bb5a7d9@194.76.18.143:443?path=%2Fb481bdf0-bf4b-464a-8357-725a0bb5a7d9&security=tls&encryption=none&host=hdfyreplace3.parthianempire.org&type=ws&sni=hdfyreplace3.parthianempire.org#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23003
 vless://ebfe9aa7-990f-4d30-9105-2c6b25817194@213.155.23.70:17789?security=reality&encryption=none&pbk=uXwlj6V8_F5RLwqw8C25GIsNP99AGv_Vvb_XmRuo1UU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=splitter.wb.ru&sid=487cff0425b4e006#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23004
 vless://359b9ad3-0009-4655-8872-d0ab566751d3@31.43.179.111:2096?path=/ws?ed=2560&security=tls&encryption=none&insecure=0&host=newgen14.hozheen.ir&fp=chrome&type=ws&allowInsecure=0&sni=d03298146e8e2fe6.hozheen.ir#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23005
-vless://2424febb-43cb-488d-bdd1-401e923c8e48@38.107.234.57:8443/?type=ws&encryption=none&flow=&path=/vless/&security=tls&sni=3h-kazakhstan1.09vpn.com#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23006
+vless://2424febb-43cb-488d-bdd1-401e923c8e48@38.107.234.57:8443?path=/vless/&security=tls&encryption=none&insecure=0&type=ws&allowInsecure=0&sni=3h-kazakhstan1.09vpn.com#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23006
 vless://a80acd3a-3df5-40b5-a54a-29bb18056115@38.180.206.44:48982?security=reality&encryption=none&pbk=A1ygNS8bIvKp7ZlUnjjHX_Z2AS_e4suvSs_IkWICvGE&type=xhttp&sni=cdn3-88.yahoo.com#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23007
 vless://2424febb-43cb-488d-bdd1-401e923c8e48@3h-kazakhstan1.09vpn.com:8443?path=/vless/&security=tls&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=3h-kazakhstan1.09vpn.com#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23008
 vless://2424febb-43cb-488d-bdd1-401e923c8e48@3h-kazakhstan1.09vpn.com:8443?path=/vless/&security=tls&encryption=none&insecure=0&host=3h-kazakhstan1.09vpn.com&fp=chrome&type=ws&allowInsecure=0&sni=3h-kazakhstan1.09vpn.com#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%23009
