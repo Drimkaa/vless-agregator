@@ -2,36 +2,36 @@
   "availability_checked": false,
   "country_counts": {
     "AZ": 1,
-    "BY": 4,
-    "DE": 583,
+    "BY": 5,
+    "DE": 561,
     "EE": 47,
-    "FI": 138,
-    "KZ": 13,
+    "FI": 144,
+    "KZ": 15,
     "LT": 19,
     "LV": 19,
-    "NL": 393,
+    "NL": 380,
     "NO": 9,
-    "PL": 98,
+    "PL": 99,
     "SE": 112,
     "TR": 66
   },
   "country_mode": "server_address_ipinfo",
   "failed_sources": 3,
   "fetched_sources": 7,
-  "generated_at": "2026-11-27T22:43:31+00:00",
-  "geoip_cached_ips": 2112,
-  "geoip_queried_ips": 265,
-  "parsed_nodes": 7138,
-  "resolved_hosts": 2538,
+  "generated_at": "2026-11-28T07:50:31+00:00",
+  "geoip_cached_ips": 2356,
+  "geoip_queried_ips": 129,
+  "parsed_nodes": 7642,
+  "resolved_hosts": 2662,
   "security_filter": "disabled",
-  "selected_nodes": 1502,
+  "selected_nodes": 1477,
   "sources": {
     "alirewa": {
-      "parsed": 880,
+      "parsed": 864,
       "url": "https://raw.githubusercontent.com/Alirewa/V2ray-Configs/main/config.txt"
     },
     "barry-far": {
-      "parsed": 5356,
+      "parsed": 5246,
       "url": "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/vless.txt"
     },
     "captchaq": {
@@ -47,15 +47,15 @@
       "url": "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Splitted-By-Protocol/vless.txt"
     },
     "igareck": {
-      "parsed": 216,
+      "parsed": 834,
       "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt"
     },
     "igareck-mobile": {
-      "parsed": 98,
+      "parsed": 121,
       "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt"
     },
     "nexus-nodes": {
-      "parsed": 496,
+      "parsed": 485,
       "url": "https://raw.githubusercontent.com/ninjastrikers/Nexus-nodes/main/configs/vless.txt"
     },
     "p-configs": {
@@ -83,6 +83,6 @@
     "SE",
     "TR"
   ],
-  "unique_nodes": 4542,
-  "unresolved_hosts": 247
+  "unique_nodes": 5067,
+  "unresolved_hosts": 242
 }
